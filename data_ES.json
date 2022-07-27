@@ -1,0 +1,436 @@
+{
+  "data": {
+    "name": "Omar Palacios",
+    "profession": "DESARROLLADOR WEB FRONTEND",
+    "address": "Bogotá, Colombia.",
+    "email": "omarpal88@gmail.com",
+    "website": "https://github.com/kikepal88",
+    "phone": "3015417060",
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Avatar_Compress.png?alt=media&token=ec632264-ec67-41c2-9062-3817337c938a",
+    "Profile-text": "Durante 10 años he trabajado en el área de diseño de la Ingeniería Civil en proyectos de distintos tipos. En la pandemia decidí reinventarme al descubrir en el Desarrollo Web un apasionante camino para desarrollar una nueva carrera. Gracias a mi background técnico y de diseño, junto con esfuerzo y dedicación he construido mi aprendizaje de estas habilidades en un proceso de aprendizaje que nunca termina.",
+    "Education-text": "Mis estudios en Desarrollo Web están enfocados en Front-End y los desarrollé estudiando en Platzi, donde he realizado más de 50 cursos sobre tecnologías Web, diseño UX/UI, entre otros.",
+    "Projects-text": "Mi experiencia en Desarrollo Web la he construido a partir de proyectos personales, retos de la escuela de desarrollo Web en Platzi y un proyecto startup EdTech llamado Melifluo. Tengo la capacidad de construir páginas web responsive (mobile first), Mi objetivo a corto plazo es programar páginas web de forma profesional y continuar mi aprendizaje para  mejorar mis habilidades.",
+    "certificates": [
+      {
+        "name": "Curso Básico de JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-basico-de-javascript.PNG?alt=media&token=494702ef-48f0-4e60-85a1-14938885c380",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Básico de Programación Orientada a Objetos con JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-basico-de-POO-con-javascript.PNG?alt=media&token=f2a51dbb-ad73-4baf-97d7-df3e64490218",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Básico de Web Components con JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/web-components-con-js.PNG?alt=media&token=99e503bb-a98d-4362-9be8-b29f4f6d2fda",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Animaciones con CSS",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/animaciones-con-css.PNG?alt=media&token=18dce9a8-c2cf-41d7-b8fe-0cc77d3784a0",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Asincronismo con JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/asincronismo-con-javascript.PNG?alt=media&token=8d532fec-f485-46ed-967c-45fb6025a429",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Closures y Scope en JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-closures-y-scope-en-javascript.PNG?alt=media&token=04e09c9e-ef69-41e7-a898-768306fae921",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Debugging con Chrome DevTools",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-debugging-con-dev-tools.PNG?alt=media&token=b3055d1d-102b-4796-87ee-4f730300a1aa",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Diseño para Developers",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-dise%C3%B1o-para-programadores.PNG?alt=media&token=2f16cf3a-900a-4645-aaac-a18d4c09ace5",
+        "discipline": "Diseño"
+      },
+      {
+        "name": "Curso de ECMAScript 6+",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/ecmascript-6.PNG?alt=media&token=de334d54-b7c7-46a3-a45f-533c35996563",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Estructuras de Datos con JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-estructura-de-datos-con-javascript.PNG?alt=media&token=6e61dcf0-95be-4285-b56c-7f40d7a6563b",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Figma",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Curso-de-figma.PNG?alt=media&token=074da605-d6f2-494b-9132-a32732af22f2",
+        "discipline": "Diseño"
+      },
+      {
+        "name": "Curso Definitivo de HTML y CSS",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-definitivo-de-html-y-css.PNG?alt=media&token=1ab9ed88-708b-4ee3-a64d-94b0dd76603f",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Gestión de Dependencias y Paquetes con NPM",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-gestion-de-dependencias-y-paquetes-con-npm.PNG?alt=media&token=43ae2283-a8f7-4d84-b334-44b93f620aad",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Inglés Básico A1: Fechas, Horas y Expresiones Simples",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-A1-dates-times-and-simple-expressions.PNG?alt=media&token=12b2bec4-e20b-44c6-8e62-9a5b061cc8b6",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico A1: Presente Simple y Vocabulario Común",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-present-simple-and-common-vocabulary.PNG?alt=media&token=13756bf8-b4b2-4406-ad5d-00cb2f7a9adb",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico A2: Adverbios y Sustantivos",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-A2-adverbs-and-nouns.PNG?alt=media&token=cf0bfc7a-b805-435b-a3ed-432503ef6f10",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico A2: Artículos y verbos modales",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-A2-articles-and-modal-verbs.PNG?alt=media&token=876e500b-f16b-45f5-9ae5-942387a48578",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico A2: Cantidades y Gerundios",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-A2-quantities%20and%20gerunds.PNG?alt=media&token=003552ce-8036-402f-9c3f-3e60bd6709d6",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico A2: Preguntas y Respuestas",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-A2-question-and-answers.PNG?alt=media&token=3559bb0a-eac9-4fbb-ae0b-ff8b26e2d269",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico: Pronunciación",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-pronunciation.PNG?alt=media&token=d5f89811-12c6-4495-9d07-6f8186f9dec4",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Introducción a la Web: Historia y Funcionamiento de Internet",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-introduci%C3%B3n-a-la-web.PNG?alt=media&token=2ebcc048-883e-499a-ab2f-ff38a8fc0f0e",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Introducción al Diseño",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-introduccion-al-dise%C3%B1o.PNG?alt=media&token=aa5f018c-5d40-4a62-99de-6097ef786272",
+        "discipline": "Diseño"
+      },
+      {
+        "name": "Curso de Introducción a React.js",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-introducci%C3%B3n-a-react.PNG?alt=media&token=abf34e8e-4b45-4b82-adc2-d8d529c59d88",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de JavaScript Engine (V8) y el Navegador",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-javascript-engine-v8.PNG?alt=media&token=fd0552af-ee2c-4559-8f49-2a37f18aa1b4",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Manipulación de Arrays en JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-manipulacion-de-arrays-en-javascript.PNG?alt=media&token=880f822b-bfa2-4611-985b-7d4abf378077",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Manipulación del DOM",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-manipulacion-del-DOM.PNG?alt=media&token=7e8f0790-191c-426c-90e4-da5dba4b27a5",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Metodologías para Diseñar un Producto Digital",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/metodologias-para-dise%C3%B1ar-producto-digital.PNG?alt=media&token=bb8ab0c9-17b3-46eb-9c4a-c4e5eea66c7a",
+        "discipline": "Diseño"
+      },
+      {
+        "name": "Curso de Preprocesadores CSS",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-preprocesadores-css.PNG?alt=media&token=4a072421-2835-4e5d-99c1-8793390e19ee",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Responsive Design: Maquetación Mobile First",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-responsive-design-mobile-first.PNG?alt=media&token=2859341c-8a39-4bc0-adc8-834d69107bad",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Single Page Application con JavaScript Vanilla",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-single-page-app-con-javascript-vanilla.PNG?alt=media&token=4de23c1b-640a-4364-9299-115710fb98d9",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Sistemas de Diseño",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-sistemas-de-dise%C3%B1o.PNG?alt=media&token=894faa60-dce5-4e1d-a809-43501a5f8523",
+        "discipline": "Diseño"
+      },
+      {
+        "name": "Curso de Transformaciones y Transiciones en CSS",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/transformaciones-y-transiciones-en-css.PNG?alt=media&token=45796ce0-2097-467e-a17e-6d7c14469604",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Webpack",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-webpack.PNG?alt=media&token=baecf226-dee4-4daf-a42e-cbffc02bc225",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Programación Básica",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-programacion-basica.PNG?alt=media&token=9bf25a39-83f3-4de4-9af1-2695a751622d",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Intermedio de Programación Orientada a Objetos en JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-intermedio-de-POO-con-javascript.PNG?alt=media&token=6b9147e1-87dd-4d26-8439-e4c5ae1ce158",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Práctico de HTML y CSS",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-practico-de-html-y-css.PNG?alt=media&token=403467aa-9f54-4f0a-9cf4-fbbb36464e6e",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Práctico de JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-practico-de-javascript.PNG?alt=media&token=3463ab8e-38bd-4077-8d48-96edc0158a5e",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Práctico de Maquetación en CSS",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-practico-de-maquetacion-en-css.PNG?alt=media&token=bb109a86-0248-47ac-9499-fe9f1e5a2423",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Profesional de CSS Grid Layout",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-profesional-css-grid-layout.PNG?alt=media&token=f3c0a24e-e9c2-43f9-a1ad-5e991aaa18db",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso Profesional de Git y GitHub",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-profesional-de-git-y-github.PNG?alt=media&token=68de99b3-0a5c-4f4c-b4cb-ea9603c21bea",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Fundamentos de Ingeniería de Software",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/fundamentos-de-la-ingenieria-del-software.PNG?alt=media&token=96e96d30-7d02-480c-a41e-c0cf1850ecc8",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Taller de Inglés Básico A1 para Principiantes",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/english-workshop-for-beginners.PNG?alt=media&token=66a57934-36dd-45de-a820-4a1a8dfb3a2d",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico A1 para Principiantes",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/english-course-for-beginners.PNG?alt=media&token=2da20d4f-6381-4155-924b-03522ef8900f",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de CSS Grid Layout",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-css-grid-layout.PNG?alt=media&token=b2d2755f-a015-450d-9124-adc6c3902134",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Estrategias para Aprender Inglés Online",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/strategies-to-learn-englisg-online.PNG?alt=media&token=f5126e84-018b-43f6-9e90-746fccb9b448",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Frontend Developer",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/fronted-developer.PNG?alt=media&token=2ec7197d-cd89-447d-8f94-6f697ca04647",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de HTML y CSS",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-html-y-css.PNG?alt=media&token=c75eea77-180c-4d7d-83c5-ed0b07ea2c6d",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Inglés Básico: Conversación",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-conversation.PNG?alt=media&token=8ecd7d3d-3771-421b-afec-5fd65b920ece",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico: Fundamentos",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-fundamentals.PNG?alt=media&token=222309b4-42ca-441f-8be7-0d1c95c78dc7",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Básico: Gramática",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/basic-english-course-grammar.PNG?alt=media&token=a54f6db8-9273-4e2e-9325-02e2b2e002db",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Curso de Inglés Práctico: Fundamentos",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/practical-english-course-fundamentals.PNG?alt=media&token=78f3bbba-2a04-4b23-bdf0-e5479dfc9280",
+        "discipline": "Inglés"
+      },
+      {
+        "name": "Fundamentos de JavaScript",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/fundamentos-de-javascript.PNG?alt=media&token=68636db5-be61-437e-9c4b-839557ef37a1",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Responsive Design",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-responsive-design.PNG?alt=media&token=abb5f627-c739-4e85-9ab4-00f9ea6476c2",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Animaciones para la Web",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-animaciones-para-la-web.PNG?alt=media&token=5e0a9997-de01-4a8b-b76b-d7c8cfee7990",
+        "discipline": "Desarrollo Web"
+      },
+      {
+        "name": "Curso de Desarrollo Web Online",
+        "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso-de-desarrollo-web-online.PNG?alt=media&token=39ca98e9-371e-4f71-a3e3-7ea727462ab2",
+        "discipline": "Desarrollo Web"
+      }
+    ],
+    "Projects": [
+      {
+        "name": "Melifluo",
+        "description": "Construcción página de pre-lanzamiento de un proyecto startup EdTech llamado Melifluo, una escuela online para aficionados a la música.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
+        "img-mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
+        "img-desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
+        "tecnologies": ["HTML", "CSS", "JS"]
+      },
+      {
+        "name": "MiniTutorialesWebDev",
+        "description": "Es un espacio con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base, seguro encontrarás consejos útiles a la hora de codear.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
+        "img-mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Mobile.png?alt=media&token=781ae577-d3b1-46b9-bb29-7b0c1839e9cb",
+        "img-desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Desktop.png?alt=media&token=f17ebe18-8f7c-4929-bf7d-bf0e62d18edc",
+        "tecnologies": ["HTML", "CSS", "JS"]
+      },
+      {
+        "name": "Melifluo",
+        "description": "Construcción página de pre-lanzamiento de un proyecto startup EdTech llamado Melifluo, una escuela online para aficionados a la música.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
+        "img-mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
+        "img-desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
+        "tecnologies": ["HTML", "CSS", "JS"]
+      }
+    ],
+    "technologies": [
+      {
+        "name": "HTML",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=a584821b-2894-48f6-81a3-00b4baf2a16d"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=c74c7d78-409e-41f6-bc71-640573deb7da"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=fe012c39-c121-4209-b918-5a19b5f38f52"
+      },
+      {
+        "name": "React",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/react.svg?alt=media&token=86af7011-2848-41e7-ae2f-8105b8d171c0"
+      },
+      {
+        "name": "Web Components",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/webcomponents.svg?alt=media&token=3af32bc5-c76a-4a73-8cf3-ffc0758f69c1"
+      },
+      {
+        "name": "NPM",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/npm.svg?alt=media&token=d3e54f49-47ce-40e0-99a8-ffa8b223837c"
+      },
+      {
+        "name": "Git",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/git.svg?alt=media&token=f7454f15-7643-474e-b5f3-e8ad117ba952"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github.svg?alt=media&token=bc886479-95f0-4a1d-99c9-6360ae268b2e"
+      },
+      {
+        "name": "Webpack",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/webpack.svg?alt=media&token=300fd66e-a2b3-40a8-b481-88b1cd3408ff"
+      },
+      {
+        "name": "Sass",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sass.svg?alt=media&token=cd3f50c6-cbd4-45cc-b167-c6e98bc99396"
+      },
+      {
+        "name": "Stylus",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/stylus.svg?alt=media&token=f62a908c-5f38-46c8-a9bc-91caa7e178c2"
+      },
+      {
+        "name": "Less",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/less.png?alt=media&token=56e28527-b7c1-4cdb-a35e-4f191a317f12"
+      },
+      {
+        "name": "Figma",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/figma.svg?alt=media&token=cbdd60c7-1563-49eb-b445-6db298aadd13"
+      },
+      {
+        "name": "Adobe XD",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/adobexd.svg?alt=media&token=8e5e4794-0a26-4546-9a01-3bccba71941f"
+      },
+      {
+        "name": "Pug",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/pug.png?alt=media&token=157eace6-a7d0-4dbf-b356-049ba5a5c7e4"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Responsive Design",
+        "description": "Capacidad de construir páginas web respondive (Mobile Firts) adaptables a cualquier dispositivo.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/mobile.svg?alt=media&token=612d479e-1fd9-49a3-bf59-19d091eddada"
+      },
+      {
+        "name": "POO",
+        "description": "Programación Orientada a Objetos, conocimientos del funcionamiento del paradigma con JavaScript.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/copy1.svg?alt=media&token=a5345bc8-4183-47e3-82a6-7bff85e250dd"
+      },
+      {
+        "name": "Diseño UX/UI",
+        "description": "Conocimientos basicos en diseño enfocado en el usuario  UX/UI de interfaces para páginas web.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/tools.svg?alt=media&token=e0884c3e-16e6-49ae-8870-4bbb92f5d679"
+      }
+    ],
+    "social": [
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/kikepal88",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/twitter_naranja.svg?alt=media&token=4226810e-a5ad-43a2-aad3-b1a8f50b5496"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/kikepal88/?hl=es-la",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/instagram_naranja.svg?alt=media&token=f5d7e23d-67a2-47d8-acc6-da34a4ed60cd"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/kikepal88",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github.svg?alt=media&token=bc886479-95f0-4a1d-99c9-6360ae268b2e"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/omarpal/",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/linkedin2_naranja.svg?alt=media&token=89598570-0041-4d83-acfc-f3c3a4eb1fb8"
+      }
+    ],
+    "hobbies": [
+      {
+        "name": "Ciclismo",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/bike.svg?alt=media&token=0e67a93d-69fc-4943-9e15-1f9c6677fbfc"
+      },
+      {
+        "name": "Book",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/book.svg?alt=media&token=b3ee28d6-b7de-4cb1-9adf-3704583f2ed2"
+      },
+      {
+        "name": "Futbol",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/futbol-o.svg?alt=media&token=cadea0b9-8b7f-4196-a077-0b8bf5f58bbd"
+      },
+      {
+        "name": "Video Juegos",
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/game-controller.svg?alt=media&token=348385cd-274b-42fd-90e6-d3c2b3c7a524"
+      }
+    ]
+  }
+}

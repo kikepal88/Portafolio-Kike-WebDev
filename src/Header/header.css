@@ -1,0 +1,22 @@
+header {
+  width: 100vw;
+  height: 60px;
+  background-color: var(--Color-primario);
+}
+.header_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 60px;
+}
+.header_logo {
+  width: 200px;
+  height: 20px;
+}
+.header_logo img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}

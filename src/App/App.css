@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+:root {
+  --Color-primario: #0d0801;
+  --Color-secundario: #335b9c;
+  --Color-variante: #e28e00;
+  --Color-complemento: #141f30;
+  --Color-complemento2: #7898CA;
+  --Color-claro: #ffffff;
+  --Color-claro2: #E3D9D9;
+  --Fuente1: "Roboto", sans-serif;
+  --p-size-p2: 1.2rem;
+  --p-size-p: 1.5rem;
+  --p-size-g: 1.6rem;
+  --h4-size-p: 1.8rem;
+  --h4-size-g: 2rem;
+  --h3-size-p: 2.16rem;
+  --h3-size-g: 2.50rem;
+  --h2-size-p: 2.59rem;
+  --h2-size-g: 3.13rem;
+  --h1-size-p: 3.11rem;
+  --h1-size-g: 3.90rem;
+  --p-lh-size-p2: 1.68rem;
+  --p-lh-size-p: 2.1rem;
+  --p-lh-size-g: 2.24rem;
+  --h4-lh-size-p: 2.52rem;
+  --h4-lh-size-g: 2.8rem;
+  --h3-lh-size-p: 3.03rem;
+  --h3-lh-size-g: 3.50rem;
+  --h2-lh-size-p: 3.63rem;
+  --h2-lh-size-g: 4.38rem;
+  --h1-lh-size-p: 4.35rem;
+  --h1-lh-size-g: 5.46rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  max-width: 100vw;
+  width: 100vw;
+  font-family: var(--Fuente1);
+  font-size: var(--p-size-p);
+  color: var(--Color-claro);
+  background-color: var(--Color-complemento);
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: var(--h1-size-p);
+  line-height: var(--h1-lh-size-p);
+}
+h2 {
+  font-size: var(--h2-size-p);
+  line-height: var(--h2-lh-size-p);
+}
+h3 {
+  font-size: var(--h3-size-p);
+  line-height: var(--h3-lh-size-p);
+}
+h4 {
+  font-size: var(--h4-size-p);
+  line-height: var(--h4-lh-size-p);
+}
+p {
+  font-size: var(--p-size-p);
+  line-height: var(--p-lh-size-p);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  padding: 20px;
 }

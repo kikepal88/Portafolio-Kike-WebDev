@@ -1,6 +1,11 @@
 import React from "react";
 import './header.css';
 
+function showMobileMenu () {
+  document.getElementById('header_icon-menu').classList.toggle('icon-close');
+  document.getElementById('header_nav').classList.toggle('is-active');
+  document.getElementById('header_section').classList.toggle('menu_is-active');
+}
 
 function Header(props) {
   const { logo } = props;
@@ -12,8 +17,12 @@ function Header(props) {
           <img src={logo} alt="Logo Kike" />
         </div>
         <div className="header_menu">
-          <i id="header__icon-menu" className="header__icon-menu" onclick="showMobileMenu()"></i>
-          <div id="header_menu_nav" className="header_menu_nav">
+          <span
+            id="header_icon-menu"
+            className="header_icon-menu"
+            onClick={showMobileMenu}>
+          </span>
+          <div id="header_menu-nav" className="header_menu-nav">
             <nav>
               <ul>
                 <li>

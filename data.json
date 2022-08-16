@@ -8,9 +8,9 @@
     "phone": "3015417060",
     "avatar": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Avatar_Compress.png?alt=media&token=ec632264-ec67-41c2-9062-3817337c938a",
     "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Logokike.png?alt=media&token=a00a0fa3-d00d-4a98-b590-b6a853cabff1",
-    "Profile-text": "Durante 10 años he trabajado en el área de diseño de la Ingeniería Civil en proyectos de distintos tipos. En la pandemia decidí reinventarme al descubrir en el Desarrollo Web un apasionante camino para desarrollar una nueva carrera. Gracias a mi background técnico y de diseño, junto con esfuerzo y dedicación he construido mi aprendizaje de estas habilidades en un proceso de aprendizaje que nunca termina.",
-    "Education-text": "Mis estudios en Desarrollo Web están enfocados en Front-End y los desarrollé estudiando en Platzi, donde he realizado más de 50 cursos sobre tecnologías Web, diseño UX/UI, entre otros.",
-    "Projects-text": "Mi experiencia en Desarrollo Web la he construido a partir de proyectos personales, retos de la escuela de desarrollo Web en Platzi y un proyecto startup EdTech llamado Melifluo. Tengo la capacidad de construir páginas web responsive (mobile first), Mi objetivo a corto plazo es programar páginas web de forma profesional y continuar mi aprendizaje para  mejorar mis habilidades.",
+    "ProfileText": "Durante 10 años he trabajado en el área de diseño de la Ingeniería Civil en proyectos de distintos tipos. En la pandemia decidí reinventarme al descubrir en el Desarrollo Web un apasionante camino para desarrollar una nueva carrera. Gracias a mi background técnico y de diseño, junto con esfuerzo y dedicación he construido mi aprendizaje de estas habilidades en un proceso de aprendizaje que nunca termina.",
+    "EducationText": "Mis estudios en Desarrollo Web están enfocados en Front-End y los desarrollé estudiando en Platzi, donde he realizado más de 50 cursos sobre tecnologías Web, diseño UX/UI, entre otros.",
+    "ProjectsText": "Mi experiencia en Desarrollo Web la he construido a partir de proyectos personales, retos de la escuela de desarrollo Web en Platzi y un proyecto startup EdTech llamado Melifluo. Tengo la capacidad de construir páginas web responsive (mobile first), Mi objetivo a corto plazo es programar páginas web de forma profesional y continuar mi aprendizaje para  mejorar mis habilidades.",
     "certificates": [
       {
         "name": "Curso Básico de JavaScript",
@@ -397,40 +397,40 @@
       {
         "name": "twitter",
         "url": "https://twitter.com/kikepal88",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/twitter_naranja.svg?alt=media&token=4226810e-a5ad-43a2-aad3-b1a8f50b5496"
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/twitter_azul.svg?alt=media&token=75b31ef6-3a2e-4562-9af6-f8eb73a33671"
       },
       {
         "name": "instagram",
         "url": "https://www.instagram.com/kikepal88/?hl=es-la",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/instagram_naranja.svg?alt=media&token=f5d7e23d-67a2-47d8-acc6-da34a4ed60cd"
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/instagram_azul.svg?alt=media&token=92d2097b-346e-4121-bfc3-393864d1bd5d"
       },
       {
         "name": "github",
         "url": "https://github.com/kikepal88",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github.svg?alt=media&token=bc886479-95f0-4a1d-99c9-6360ae268b2e"
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github_azul.svg?alt=media&token=f1eeae25-72c9-4b83-bd37-6ea293258521"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/omarpal/",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/linkedin2_naranja.svg?alt=media&token=89598570-0041-4d83-acfc-f3c3a4eb1fb8"
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/linkedin_azul.svg?alt=media&token=c7a2b63d-454a-46b5-913e-699340f8ef3b"
       }
     ],
     "hobbies": [
       {
         "name": "Ciclismo",
-        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/bike.svg?alt=media&token=0e67a93d-69fc-4943-9e15-1f9c6677fbfc"
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/bike_azul.svg?alt=media&token=cf3e5e9b-7f98-4ffe-9114-df3db8191639"
       },
       {
         "name": "Book",
-        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/book.svg?alt=media&token=b3ee28d6-b7de-4cb1-9adf-3704583f2ed2"
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/book_azul.svg?alt=media&token=ae533e0c-a4da-437a-99b6-800b6e080fa2"
       },
       {
         "name": "Futbol",
-        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/futbol-o.svg?alt=media&token=cadea0b9-8b7f-4196-a077-0b8bf5f58bbd"
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/futbol-o_azul.svg?alt=media&token=478d397f-51e4-40f4-9608-acef7840f1ec"
       },
       {
         "name": "Video Juegos",
-        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/game-controller.svg?alt=media&token=348385cd-274b-42fd-90e6-d3c2b3c7a524"
+        "icon": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/game-controller_azul.svg?alt=media&token=cc3ef9ba-9f61-4b57-89a6-ad3dfefe035a"
       }
     ]
   }

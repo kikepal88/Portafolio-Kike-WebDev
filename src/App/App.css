@@ -48,7 +48,6 @@ body {
   font-size: var(--p-size-p);
   color: var(--Color-claro);
   background-color: var(--Color-complemento);
-  /* overflow: hidden; */
 }
 
 h1 {
@@ -73,5 +72,5 @@ p {
 }
 
 section {
-  padding: 20px;
+  padding: 30px 20px;
 }

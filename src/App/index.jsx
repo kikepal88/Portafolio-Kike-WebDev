@@ -1,6 +1,8 @@
 import React from 'react';
 import getData from '../utils/getData';
-import Header from '../Header/index';
+import Header from '../Components/Header';
+import Main from '../Components/Main';
+import AboutMe from '../Components/AboutMe';
 import './App.css';
 
 function App() {
@@ -20,6 +22,16 @@ function App() {
         logo={data.logo}
       >
       </Header>
+      <Main>
+        <AboutMe
+          profession={data.profession}
+          avatar={data.avatar}
+          ProfileText={data.ProfileText}
+          social={data.social}
+          hobbies={data.hobbies}
+        >
+        </AboutMe>
+      </Main>
     </React.Fragment>
   );
 }

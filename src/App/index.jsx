@@ -1,20 +1,18 @@
 import React from 'react';
-import getData from '../utils/getData';
+import '../Styles/App.css';
 import Header from '../Components/Header';
 import Main from '../Components/Main';
 import AboutMe from '../Components/AboutMe';
-import './App.css';
+import Education from '../Components/Education';
+import myData from '../data/data.json';
 
 function App() {
-  const api = 'http://localhost:3000/data';
 
   const [data, setData] = React.useState({});
 
   React.useEffect(() => {
-    getData(api)
-      .then(response => setData(response))
-      .catch(error => console.error(error));
-  }, []);
+    setData(myData.data);
+  }, [data]);
 
   return (
     <React.Fragment>
@@ -31,6 +29,12 @@ function App() {
           hobbies={data.hobbies}
         >
         </AboutMe>
+        <Education
+          EducationText={data.EducationText}
+          certificates={data.certificates}
+          Schools={data.Schools}
+        >
+        </Education>
       </Main>
     </React.Fragment>
   );

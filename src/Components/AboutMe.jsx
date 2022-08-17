@@ -1,5 +1,5 @@
 import React from "react";
-import '../AboutMe/aboutMe.css';
+import '../Styles/aboutMe.css';
 
 function AboutMe (props) {
   const { profession, avatar, ProfileText, social, hobbies } = props;

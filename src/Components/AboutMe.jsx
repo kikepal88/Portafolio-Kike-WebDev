@@ -4,8 +4,6 @@ import '../AboutMe/aboutMe.css';
 function AboutMe (props) {
   const { profession, avatar, ProfileText, social, hobbies } = props;
 
-
-
   return(
     <section id="aboutMe" className="aboutMe_section">
       <h1>{profession}</h1>
@@ -16,8 +14,13 @@ function AboutMe (props) {
         {
           social &&
             social.map((socialMedia) => {
+              const { url } = socialMedia;
               return(
-                <a href={socialMedia.url} className="social_icon">
+                <a
+                  href={socialMedia.url}
+                  key={url}
+                  className="social_icon"
+                >
                   <img src={socialMedia.image} alt={socialMedia.name} />
                 </a>
               )
@@ -36,11 +39,12 @@ function AboutMe (props) {
         <button>DESCARGA MI CV</button>
       </div>
       <div className="aboutMe_hobbies">
-      {
+        {
           hobbies &&
             hobbies.map((hobbie) => {
+              const { icon } = hobbie;
               return(
-                <div className="hobbies_icon">
+                <div className="hobbies_icon" key={icon}>
                   <img src={hobbie.icon} alt={hobbie.name} />
                 </div>
               )

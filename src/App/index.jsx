@@ -1,9 +1,8 @@
 import React from 'react';
-import '../Styles/App.css';
-import Header from '../Components/Header';
-import Main from '../Components/Main';
-import AboutMe from '../Components/AboutMe';
-import Education from '../Components/Education';
+import Header from '../Header/Header';
+import Main from '../Main/Main';
+import AboutMe from '../AboutMe/AboutMe';
+import Education from '../Education/Education';
 import myData from '../data/data.json';
 
 function App() {

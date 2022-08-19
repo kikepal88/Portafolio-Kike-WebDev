@@ -1,7 +1,7 @@
 header {
   width: 100vw;
   height: 60px;
-  background-color: var(--Color-primario);
+  background-color: $Color-primario;
 }
 .header_section {
   display: flex;
@@ -41,8 +41,8 @@ header {
   display: none;
   width: 100vw;
   height: min-content;
-  color: var(--Color-claro);
-  background-color: var(--Color-variante);
+  color: $Color-claro;
+  background-color: $Color-variante;
   text-align: center;
   opacity: 0.95;
   transition: 0.3s;
@@ -58,20 +58,20 @@ header {
 .header_menu-nav li {
   width: 70%;
   margin: 25px auto;
-  color: var(--Color-claro);
+  color: $Color-claro;
   list-style: none;
   cursor: pointer;
 }
 .header_menu-nav a {
-  color: var(--Color-claro);
+  color: $Color-claro;
   text-decoration: none;
 }
 .header_menu-nav a:hover {
-  color: var(--Color-secundario);
+  color: $Color-secundario;
 }
 .header_menu-nav a:active {
-  color: var(--Color-complemento);
+  color: $Color-complemento;
 }
 .header_menu-nav a:focus {
-  color: var(--Color-complemento);
+  color: $Color-complemento;
 }

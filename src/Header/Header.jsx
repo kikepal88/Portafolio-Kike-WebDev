@@ -1,5 +1,4 @@
 import React from "react";
-import '../Styles/header.css';
 
 function showMobileMenu () {
   document.getElementById('header_icon-menu').classList.toggle('icon-close');

@@ -1,5 +1,4 @@
 import React from "react";
-import '../Styles/education.css';
 
 function Education(props) {
   const { EducationText, certificates, Schools } = props;

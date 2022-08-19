@@ -3,14 +3,14 @@
   height: auto;
 }
 .aboutMe_section h1 {
-  color: var(--Color-secundario);
+  color: $Color-secundario;
   text-align: center;
 }
 .aboutMe_avatar {
   width: 190px;
   height: 190px;
   margin: 10px auto 20px;
-  border: 2px solid var(--Color-complemento2);
+  border: 2px solid $Color-complemento2;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -38,7 +38,7 @@
   object-fit: cover;
 }
 .aboutMe_description h2 {
-  color: var(--Color-secundario);
+  color: $Color-secundario;
   margin-block-end: 10px;
 }
 .aboutMe_description p {
@@ -53,13 +53,13 @@
   width: auto;
   height: 46px;
   padding: 10px 12px;
-  color: var(--Color-claro);
+  color: $Color-claro;
   font-size: 1.8rem;
   line-height: 2.52rem;
-  background-color: var(--Color-secundario);
-  border: 2px solid var(--Color-complemento2);
+  background-color: $Color-secundario;
+  border: 2px solid $Color-complemento2;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px 0px var(--Color-complemento2);
+  box-shadow: 1px 1px 5px 0px $Color-complemento2;
   cursor: pointer;
 }
 .aboutMe_hobbies {
@@ -83,4 +83,3 @@
   width: 100%;
   object-fit: cover;
 }
-

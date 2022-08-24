@@ -4,7 +4,7 @@ function AboutMe (props) {
   const { profession, avatar, ProfileText, social, hobbies } = props;
 
   return(
-    <section id="aboutMe" className="aboutMe_section">
+    <section id="aboutMe" className="aboutMe">
       <h1>{profession}</h1>
       <div className="aboutMe_avatar">
         <img src={avatar} alt="Imagen Avatar Kike"/>
@@ -27,7 +27,7 @@ function AboutMe (props) {
         }
       </div>
       <div className="aboutMe_description">
-        <h2>
+        <h2 className="h2">
           Sobre Mí
         </h2>
         <p>

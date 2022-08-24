@@ -1,0 +1,60 @@
+.aboutMe {
+  width: 100%;
+  height: auto;
+  &_avatar {
+    width: 190px;
+    height: 190px;
+    margin: 10px auto 20px;
+    border: 2px solid $Color-complemento2;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  &_social {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto 20px;
+    .social_icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &_description {
+    width: 100%;
+    p {
+      margin-block-end: 20px;
+    }
+  }
+  &_buttonCV {
+    margin: 0 auto 20px;
+    text-align: center;
+    button {
+      display: inline;
+      width: auto;
+      height: 46px;
+      padding: 10px 12px;
+      color: $Color-claro;
+      font-size: 1.8rem;
+      line-height: 2.52rem;
+      background-color: $Color-secundario;
+      border: 2px solid $Color-complemento2;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px 0px $Color-complemento2;
+      cursor: pointer;
+    }
+  }
+  &_hobbies {
+    @extend .aboutMe_social;
+    margin: 0 auto;
+    .hobbies_icon {
+      width: 40px;
+      height: 40px;
+    }
+    .hobbies_icon:first-child {
+      width: 45px;
+    }
+  }
+}

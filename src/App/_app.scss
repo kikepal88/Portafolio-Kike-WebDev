@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  max-width: 100vw;
   width: 100vw;
   font-family: $Fuente1;
   color: $Color-claro;
@@ -13,10 +12,14 @@ body {
 h1 {
   font-size: $h1-size-p;
   line-height: $h1-lh-size-p;
+  color: $Color-secundario;
+  text-align: center;
 }
 h2 {
   font-size: $h2-size-p;
   line-height: $h2-lh-size-p;
+  color: $Color-secundario;
+  margin-block-end: 10px;
 }
 h3 {
   font-size: $h3-size-p;
@@ -32,5 +35,12 @@ p {
 }
 
 section {
+  width: 100%;
   padding: 30px 20px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
 }

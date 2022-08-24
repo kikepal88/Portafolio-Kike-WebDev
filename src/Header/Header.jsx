@@ -10,9 +10,9 @@ function Header(props) {
 
   return(
     <header>
-      <section className="header_section">
+      <section className="header">
         <div className="header_logo">
-          <img src={logo} alt="Logo Kike" />
+          <img src={logo} alt="Logo Kike" className="img"/>
         </div>
         <i
           id="header_icon-menu"

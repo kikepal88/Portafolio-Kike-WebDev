@@ -3,75 +3,71 @@ header {
   height: 60px;
   background-color: $Color-primario;
 }
-.header_section {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
   height: 60px;
-}
-.header_logo {
-  width: 200px;
-  height: 20px;
-}
-.header_logo img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-}
-.header_menu-icon {
-  width: 30px;
-  height: 20px;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/icon-hamburger.svg?alt=media&token=33e7271e-2b55-49e0-a8c8-3c2ad8724543");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.header_menu-icon.icon-close {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/icon-close_white.svg?alt=media&token=9dee69dd-492c-4c45-aa31-0011e78025a4");
-}
-.header_menu-nav {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  display: none;
-  width: 100vw;
-  height: min-content;
-  color: $Color-claro;
-  background-color: $Color-variante;
-  text-align: center;
-  opacity: 0.95;
-  transition: 0.3s;
-}
-.header_menu-nav.is-active {
-  display: block;
-}
-.header_menu-nav nav {
-  width: 100%;
-  height: 100%;
-  padding: 30px;
-}
-.header_menu-nav li {
-  width: 70%;
-  margin: 25px auto;
-  color: $Color-claro;
-  list-style: none;
-  cursor: pointer;
-}
-.header_menu-nav a {
-  color: $Color-claro;
-  text-decoration: none;
-}
-.header_menu-nav a:hover {
-  color: $Color-secundario;
-}
-.header_menu-nav a:active {
-  color: $Color-complemento;
-}
-.header_menu-nav a:focus {
-  color: $Color-complemento;
+  padding: 20px;
+  &_logo {
+    width: 200px;
+    height: 20px;
+  }
+  &_menu-icon {
+    width: 30px;
+    height: 20px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/icon-hamburger.svg?alt=media&token=33e7271e-2b55-49e0-a8c8-3c2ad8724543");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &.icon-close {
+      background-image: url("https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/icon-close_white.svg?alt=media&token=9dee69dd-492c-4c45-aa31-0011e78025a4");
+    }
+  }
+  &_menu-nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    width: 100vw;
+    height: min-content;
+    color: $Color-claro;
+    background-color: $Color-variante;
+    text-align: center;
+    opacity: 0.95;
+    transition: 0.3s;
+    &.is-active {
+      display: block;
+    }
+    nav {
+      width: 100%;
+      height: 100%;
+      padding: 30px;
+      li {
+        width: 70%;
+        margin: 25px auto;
+        color: $Color-claro;
+        list-style: none;
+        cursor: pointer;
+        a {
+          color: $Color-claro;
+          text-decoration: none;
+        }
+        a:hover {
+          color: $Color-secundario;
+        }
+        a:active {
+          color: $Color-complemento;
+        }
+        a:focus {
+          color: $Color-complemento;
+        }
+      }
+    }
+  }
 }

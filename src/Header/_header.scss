@@ -4,13 +4,10 @@ header {
   background-color: $Color-primario;
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
   width: 100%;
   height: 60px;
   padding: 20px;
+  @include flex;
   &_logo {
     width: 200px;
     height: 20px;

@@ -28,3 +28,25 @@ $h2-lh-size-p: 3.63rem;
 $h2-lh-size-g: 4.38rem;
 $h1-lh-size-p: 4.35rem;
 $h1-lh-size-g: 5.46rem;
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+@mixin button_mobile {
+  display: inline;
+  width: auto;
+  height: 46px;
+  padding: 10px 12px;
+  color: $Color-claro;
+  font-size: 1.8rem;
+  line-height: 2.52rem;
+  background-color: $Color-secundario;
+  border: 2px solid $Color-complemento2;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0px $Color-complemento2;
+  cursor: pointer;
+}

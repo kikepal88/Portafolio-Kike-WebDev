@@ -1,4 +1,31 @@
 .education {
   width: 100%;
   height: auto;
+  p {
+    margin-block-end: 20px;
+  }
+  &_platzi {
+    width: 100%;
+    height: 46px;
+    @include flex;
+    .platzi_icon {
+      width: 100px;
+      height: 30px;
+      @include flex;
+      .icon_logo {
+        width: 30px;
+        height: 30px;
+      }
+      .icon_name {
+        width: 62px;
+        height: 30px;
+      }
+    }
+    .platzi_button {
+      text-align: center;
+      button {
+        @include button_mobile;
+      }
+    }
+  }
 }

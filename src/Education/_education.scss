@@ -1,12 +1,15 @@
 .education {
   width: 100%;
   height: auto;
-  p {
-    margin-block-end: 20px;
+  &_description {
+    p {
+      margin-block-end: 20px;
+    }
   }
   &_platzi {
     width: 100%;
     height: 46px;
+    margin-block-end: 20px;
     @include flex;
     .platzi_icon {
       width: 100px;
@@ -25,6 +28,64 @@
       text-align: center;
       button {
         @include button_mobile;
+      }
+    }
+  }
+  &_schools {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    .school_container {
+      width: 100%;
+      height: auto;
+      .container_header {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-block: 5px;
+        background-color: $Color-secundario;
+        border: 3px solid $Color-complemento2;
+        border-radius: 10px;
+        h3 {
+          color: $Color-complemento;
+        }
+        .header_arrow {
+          position: absolute;
+          top: 18px;
+          right: 15px;
+          width: 18px;
+          height: 25px;
+          background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/next_azulosc.svg?alt=media&token=3fb342b4-c936-4fab-b367-ad1d235510ba);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          rotate: 90deg;
+        }
+        .header_arrow.is-active {
+          rotate: -90deg;
+        }
+      }
+      .container_header.is-active {
+        border-radius: 10px 10px 0 0;
+      }
+    }
+    .container_courses {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 375px;
+      padding-inline: 5px;
+      background-color: $Color-primario;
+      border: 2px solid $Color-complemento2;
+      border-block-start: none;
+      border-radius: 0 0 10px 10px;
+      overflow-x: scroll;
+      .courses_name {
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+        padding: 7px 0;
+        border-block-end: 1px solid $Color-claro2;
       }
     }
   }

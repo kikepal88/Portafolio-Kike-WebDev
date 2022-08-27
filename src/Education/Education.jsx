@@ -1,15 +1,13 @@
 import React from "react";
 
 function Education(props) {
-  const { EducationText, certificates, Schools } = props;
+  const { EducationText, Schools } = props;
 
   return(
     <section id="education" className="education">
       <div className="education_description">
         <h2>Educación</h2>
-        <p>
-          Mis estudios en Desarrollo Web están enfocados en Front-End y los desarrollé estudiando en Platzi, donde he realizado más de 50 cursos sobre tecnologías Web, diseño UX/UI, entre otros.
-        </p>
+        <p>{EducationText}</p>
       </div>
       <div className="education_platzi">
         <div className="platzi_icon">
@@ -23,6 +21,36 @@ function Education(props) {
         <div className="platzi_button">
           <button>VER PERFIL DE PLATZI</button>
         </div>
+      </div>
+      <div className="education_schools">
+        {
+          Schools &&
+            Schools.map((School) => {
+              const { name, certificates } = School;
+              return(
+                <div className="school_container" key={name}>
+                  <div className="container_header">
+                    <h3>{name}</h3>
+                    <p>Cursos: {certificates.length}</p>
+                    <div className="header_arrow"></div>
+                  </div>
+                  <div className="container_courses">
+                    {
+                      certificates &&
+                        certificates.map((certificate) => {
+                          const { name } = certificate;
+                          return(
+                            <div className="courses_name" key={name}>
+                              <p>{name}</p>
+                            </div>
+                          );
+                        })
+                    }
+                  </div>
+                </div>
+              );
+            })
+          }
       </div>
     </section>
   );

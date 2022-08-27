@@ -30,7 +30,6 @@ function App() {
         </AboutMe>
         <Education
           EducationText={data.EducationText}
-          certificates={data.certificates}
           Schools={data.Schools}
         >
         </Education>

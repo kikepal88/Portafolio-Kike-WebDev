@@ -1,7 +1,29 @@
 import React from "react";
 
+function activeShowList (key1, key2, key3) {
+  document.getElementById(key1).classList.toggle('is-active');
+  document.getElementById(key2).classList.toggle('is-active');
+  document.getElementById(key3).classList.toggle('is-active');
+}
+
+function showCoursesList (e) {
+  const target = e.target.id;
+  console.log(target);
+  if (target.includes("Web")) {
+    activeShowList(`header_Web`, `arrow_Web`, `courses_Web`);
+  } else if (target.includes("Eng")) {
+    activeShowList(`header_Eng`, `arrow_Eng`, `courses_Eng`);
+  } else if (target.includes("Des")) {
+    activeShowList(`header_Des`, `arrow_Des`, `courses_Des`);
+  }
+}
+
 function Education(props) {
   const { EducationText, Schools } = props;
+  const certDesWeb = Schools && Schools[0].certificates;
+  const certEnglish = Schools && Schools[1].certificates;
+  const certDesign = Schools && Schools[2].certificates;
+  const certs = certDesWeb && certDesWeb.concat(certEnglish, certDesign);
 
   return(
     <section id="education" className="education">
@@ -26,15 +48,37 @@ function Education(props) {
         {
           Schools &&
             Schools.map((School) => {
-              const { name, certificates } = School;
+              const { name, key, certificates } = School;
               return(
-                <div className="school_container" key={name}>
-                  <div className="container_header">
-                    <h3>{name}</h3>
-                    <p>Cursos: {certificates.length}</p>
-                    <div className="header_arrow"></div>
+                <div
+                  id={`school_${key}`}
+                  className="school_container"
+                  key={name}
+                  onClick={(e) => showCoursesList(e)}
+                >
+                  <div
+                    id={`header_${key}`}
+                    className="container_header"
+                  >
+                    <div className="header_description">
+                      <h3
+                        id={`h3_${key}`}
+                      >
+                        {name}
+                      </h3>
+                      <p
+                        id={`p_${key}`}
+                      >Cursos: {certificates.length}</p>
+                    </div>
+                    <div
+                      id={`arrow_${key}`}
+                      className="header_arrow"
+                    >
+                    </div>
                   </div>
-                  <div className="container_courses">
+                  <div
+                    id={`courses_${key}`}
+                    className="container_courses">
                     {
                       certificates &&
                         certificates.map((certificate) => {
@@ -51,6 +95,21 @@ function Education(props) {
               );
             })
           }
+      </div>
+      <div className="education_certificates">
+          <div className="certificates_container">
+            {
+              certs &&
+                certs.map((cert) => {
+                  const { name, url } = cert;
+                  return(
+                    <div className="certificates_image" key={name}>
+                      <img src={url} alt={name} />
+                    </div>
+                  );
+                })
+            }
+          </div>
       </div>
     </section>
   );

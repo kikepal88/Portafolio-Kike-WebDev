@@ -34,31 +34,34 @@
   &_schools {
     width: 100%;
     height: auto;
+    margin-block-end: 20px;
     text-align: center;
     .school_container {
       width: 100%;
       height: auto;
       .container_header {
-        position: relative;
         width: 100%;
         height: auto;
         padding-block: 5px;
         background-color: $Color-secundario;
         border: 3px solid $Color-complemento2;
         border-radius: 10px;
-        h3 {
-          color: $Color-complemento;
+        @include flex;
+        justify-content: flex-start;
+        .header_description {
+          width: 88%;
+          padding-inline-start: 8%;
+          h3 {
+            color: $Color-complemento;
+          }
         }
         .header_arrow {
-          position: absolute;
-          top: 18px;
-          right: 15px;
-          width: 18px;
-          height: 25px;
+          width: 12%;
+          height: 51px;
           background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/next_azulosc.svg?alt=media&token=3fb342b4-c936-4fab-b367-ad1d235510ba);
           background-position: center;
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: 20px 28px;
           rotate: 90deg;
         }
         .header_arrow.is-active {
@@ -70,7 +73,7 @@
       }
     }
     .container_courses {
-      display: block;
+      display: none;
       width: 100%;
       height: auto;
       max-height: 375px;
@@ -88,5 +91,46 @@
         border-block-end: 1px solid $Color-claro2;
       }
     }
+    .container_courses.is-active {
+      display: block;
+    }
   }
+  &_certificates {
+    position: relative;
+    width: 100%;
+    height: 333px;
+    padding: 10px;
+    border: 2px solid $Color-complemento2;
+    border-radius: 10px;
+    background-color: $Color-primario;
+    overflow: hidden;
+    overflow-x: scroll;
+    .certificates_container {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 195px;
+      grid-template-rows: repeat(2, 150px);
+      column-gap: 10px;
+      row-gap: 10px;
+      animation: scrolling 120s linear infinite;
+      .certificates_image {
+        width: 195px;
+        height: 150px;
+      }
+    }
+  }
+}
+
+@keyframes scrolling {
+  from {
+    margin-inline-start: 0%;
+  }
+  25% {
+    margin-inline-start: -900%;
+  }
+  50%{margin-inline-start: -1800%;}
+  75% {
+    margin-inline-start: -900%;
+  }
+  100%{margin-inline-start: 0%;}
 }

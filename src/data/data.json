@@ -326,28 +326,67 @@
         "name": "Melifluo",
         "description": "Construcción página de pre-lanzamiento de un proyecto startup EdTech llamado Melifluo, una escuela online para aficionados a la música.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img-mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
-        "img-desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
-        "tecnologies": ["HTML", "CSS", "JS"]
+        "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
+        "technologies": [
+          {
+            "name": "HTML",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+          },
+          {
+            "name": "CSS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+          },
+          {
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          }
+        ]
       },
       {
         "name": "MiniTutorialesWebDev",
         "description": "Es un espacio con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base, seguro encontrarás consejos útiles a la hora de codear.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
-        "img-mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Mobile.png?alt=media&token=781ae577-d3b1-46b9-bb29-7b0c1839e9cb",
-        "img-desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Desktop.png?alt=media&token=f17ebe18-8f7c-4929-bf7d-bf0e62d18edc",
-        "tecnologies": ["HTML", "CSS", "JS"]
+        "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Mobile.png?alt=media&token=781ae577-d3b1-46b9-bb29-7b0c1839e9cb",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Desktop.png?alt=media&token=f17ebe18-8f7c-4929-bf7d-bf0e62d18edc",
+        "technologies": [
+          {
+            "name": "HTML",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+          },
+          {
+            "name": "CSS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+          },
+          {
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          }
+        ]
       },
       {
         "name": "Melifluo",
         "description": "Construcción página de pre-lanzamiento de un proyecto startup EdTech llamado Melifluo, una escuela online para aficionados a la música.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img-mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
-        "img-desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
-        "tecnologies": ["HTML", "CSS", "JS"]
+        "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
+        "technologies": [
+          {
+            "name": "HTML",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+          },
+          {
+            "name": "CSS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+          },
+          {
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          }
+        ]
       }
     ],
-    "technologies": [
+    "Technologies": [
       {
         "name": "HTML",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"

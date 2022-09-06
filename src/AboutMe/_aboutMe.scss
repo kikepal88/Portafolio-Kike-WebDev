@@ -1,6 +1,5 @@
 .aboutMe {
-  width: 100%;
-  height: auto;
+  @include description_section;
   &_avatar {
     width: 190px;
     height: 190px;
@@ -17,12 +16,6 @@
     .social_icon {
       width: 40px;
       height: 40px;
-    }
-  }
-  &_description {
-    width: 100%;
-    p {
-      margin-block-end: 20px;
     }
   }
   &_buttonCV {

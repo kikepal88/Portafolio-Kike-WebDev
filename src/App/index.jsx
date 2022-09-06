@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
 import Education from '../Education/Education';
+import Projects from '../Projects/Projects';
 import myData from '../data/data.json';
 
 function App() {
@@ -33,6 +34,11 @@ function App() {
           Schools={data.Schools}
         >
         </Education>
+        <Projects
+          ProjectsText={data.ProjectsText}
+          Projects={data.Projects}
+        >
+        </Projects>
       </Main>
     </React.Fragment>
   );

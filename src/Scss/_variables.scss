@@ -50,3 +50,13 @@ $h1-lh-size-g: 5.46rem;
   box-shadow: 1px 1px 5px 0px $Color-complemento2;
   cursor: pointer;
 }
+
+@mixin description_section {
+  width: 100%;
+  height: auto;
+  &_description {
+    p {
+      margin-block-end: 20px;
+    }
+  }
+}

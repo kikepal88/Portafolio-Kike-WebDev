@@ -46,10 +46,11 @@ function Projects (props) {
                           technologies.map((technology) => {
                             const { name, logo } = technology;
                             return(
-                              <span>
-                                <div>
+                              <span key={name} className="technologies_container">
+                                <div className="technologies_icon">
                                   <img key={name} src={logo} alt={name} />
                                 </div>
+                                <p>{name}</p>
                               </span>
                             )
                           })

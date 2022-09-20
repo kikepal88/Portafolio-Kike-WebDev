@@ -333,6 +333,8 @@
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
         "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
         "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
+        "url_repo": "https://github.com/kikepal88/Melifluo-Web",
+        "url_demo": "https://kikepal88.github.io/Melifluo-Web/",
         "technologies": [
           {
             "name": "HTML",
@@ -354,6 +356,8 @@
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
         "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Mobile.png?alt=media&token=781ae577-d3b1-46b9-bb29-7b0c1839e9cb",
         "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Desktop.png?alt=media&token=f17ebe18-8f7c-4929-bf7d-bf0e62d18edc",
+        "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",
+        "url_demo": "https://kikepal88.github.io/MiniTutorialesWebDev/",
         "technologies": [
           {
             "name": "HTML",
@@ -375,6 +379,8 @@
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
         "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
         "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
+        "url_repo": "https://github.com/kikepal88/Portafolio-Kike-WebDev",
+        "url_demo": "https://kikepal88.github.io/Portafolio-Kike-WebDev/",
         "technologies": [
           {
             "name": "HTML",

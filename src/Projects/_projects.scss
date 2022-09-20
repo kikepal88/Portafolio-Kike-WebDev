@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     .project_container {
+      position: relative;
       width: 100%;
       height: auto;
       margin-block-end: 20px;
@@ -29,10 +30,40 @@
           display: block;
         }
       }
+      .img_iterator {
+        position: absolute;
+        top: 475px;
+        left: calc(50% - 50px);
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: $Color-complemento;
+        .iterator_img {
+          width: 32px;
+          height: 32px;
+        }
+        span {
+          position: absolute;
+          right: 2px;
+          width: 46px;
+          height: 46px;
+          border-radius: 50%;
+          background-color: $Color-secundario;
+          transition: 1s linear;
+        }
+        span.is-active {
+          left: 2px;
+          right: 0;
+        }
+      }
       .container_description {
         width: 100%;
         height: auto;
-        padding: 20px;
+        padding: 35px 20px 20px;
         .description_buttons {
           width: 100%;
           height: auto;
@@ -40,7 +71,7 @@
           @include flex;
           .buttons button {
             @include button_mobile;
-            padding: 5px 40px;
+            padding: 5px 42px;
           }
         }
         .description_technologies {

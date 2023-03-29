@@ -1,15 +1,15 @@
 {
   "data": {
     "name": "Omar Palacios",
-    "profession": "DESARROLLADOR WEB FRONTEND",
+    "profession": "DESARROLLADOR WEB FULLSTACK",
     "address": "Bogotá, Colombia.",
     "email": "omarpal88@gmail.com",
     "website": "https://github.com/kikepal88",
     "phone": "3015417060",
     "avatar": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Avatar_Compress.png?alt=media&token=ec632264-ec67-41c2-9062-3817337c938a",
     "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Logokike.png?alt=media&token=a00a0fa3-d00d-4a98-b590-b6a853cabff1",
-    "ProfileText": "Durante 10 años he trabajado en el área de diseño de la Ingeniería Civil en proyectos de distintos tipos. En la pandemia decidí reinventarme al descubrir en el Desarrollo Web un apasionante camino para desarrollar una nueva carrera. Gracias a mi background técnico y de diseño, junto con esfuerzo y dedicación he construido mi aprendizaje de estas habilidades en un proceso de aprendizaje que nunca termina.",
-    "EducationText": "Mis estudios en Desarrollo Web están enfocados en Front-End y los desarrollé estudiando en Platzi, donde he realizado más de 50 cursos sobre tecnologías Web, diseño UX/UI, entre otros.",
+    "ProfileText": "Experiencia previa en el Desarrollo Web a través del aprendizaje y la ejecución de proyectos tanto de forma individual, como en entornos colaborativos, participando en el diseño y maquetación de interfaces completamente responsivas, con la manipulación de las mismas por medio de JavaScript he creado páginas y aplicaciones web interactivas para los usuarios, conectándolas con servidores que he desarrollado para el consumo de APIs y BD . Poseo un background técnico de 10 años de experiencia en ingeniería civil por diferentes empresas donde he apoyado, coordinado y liderado equipos de trabajo en diferentes proyectos, superando obstáculos, solucionando conflictos, y adaptándome a las nuevas tecnologías de cada cargo y del mercado.",
+    "EducationText": "Mis estudios en Desarrollo Web los desarrollé estudiando en Platzi, y en el BootCamp de Henry.",
     "ProjectsText": "Mi experiencia en Desarrollo Web la he construido a partir de proyectos personales, retos de la escuela de desarrollo Web en Platzi y un proyecto startup EdTech llamado Melifluo. Tengo la capacidad de construir páginas web responsive (mobile first), Mi objetivo a corto plazo es programar páginas web de forma profesional y continuar mi aprendizaje para  mejorar mis habilidades.",
     "Schools": ["Desarrollo Web", "Inglés", "Diseño"],
     "certificates": [

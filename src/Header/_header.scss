@@ -2,6 +2,7 @@ header {
   width: 100vw;
   height: 60px;
   background-color: $Color-primario;
+  box-shadow: 0 1px 10px 0 $Color-secundario;
 }
 .header {
   width: 100%;
@@ -34,7 +35,7 @@ header {
     width: 100vw;
     height: min-content;
     color: $Color-claro;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37, 145, 251, 0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  $Color-secundario 0.1%, $Color-complemento 99.8% );
     background-size: 300% 300%;
     animation: AnimateBG 15s ease infinite;
     text-align: center;

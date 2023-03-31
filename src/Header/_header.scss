@@ -6,16 +6,16 @@ header {
 .header {
   width: 100%;
   height: 60px;
-  padding: 20px;
+  padding: 15px 20px;
   @include flex;
   &_logo {
-    width: 200px;
-    height: 20px;
+    width: 250px;
+    height: 30px;
   }
   &_menu-icon {
-    width: 30px;
-    height: 20px;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/icon-hamburger.svg?alt=media&token=33e7271e-2b55-49e0-a8c8-3c2ad8724543");
+    width: 40px;
+    height: 30px;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Burguer_blue.svg?alt=media&token=08f1d966-b4e4-4677-808e-f27d8160fd2e");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -34,7 +34,9 @@ header {
     width: 100vw;
     height: min-content;
     color: $Color-claro;
-    background-color: $Color-variante;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37, 145, 251, 0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    background-size: 300% 300%;
+    animation: AnimateBG 15s ease infinite;
     text-align: center;
     opacity: 0.95;
     transition: 0.3s;
@@ -66,5 +68,17 @@ header {
         }
       }
     }
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }

@@ -118,3 +118,11 @@ header {
     }
   }
 }
+
+@media screen and (min-width: 1240px) {
+  .header {
+    &_menu-nav {
+      width: 30%;
+    }
+  }
+}

@@ -7,15 +7,15 @@ header {
 .header {
   width: 100%;
   height: 60px;
-  padding: 15px 20px;
+  padding-block: 15px;
   @include flex;
   &_logo {
     width: 250px;
     height: 30px;
   }
   &_menu-icon {
-    width: 40px;
-    height: 30px;
+    width: 35px;
+    height: 27px;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Burguer_blue.svg?alt=media&token=08f1d966-b4e4-4677-808e-f27d8160fd2e");
     background-position: center;
     background-repeat: no-repeat;
@@ -81,5 +81,40 @@ header {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    height: 70px;
+  }
+  .header {
+    height: 70px;
+    padding-block: 20px;
+    &_menu-icon {
+      display: none;
+    }
+    &_menu-nav {
+      position: initial;
+      display: block;
+      width: 42%;
+      height: 30px;
+      background-image: none;
+      animation: none;
+      nav {
+        width: 100%;
+        padding: 0;
+        ul {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+        }
+        li {
+          width: 33%;
+          margin: 0;
+          text-align: end;
+        }
+      }
+    }
   }
 }

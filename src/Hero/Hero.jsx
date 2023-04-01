@@ -1,13 +1,60 @@
 import React from "react";
 
 function Hero (props) {
-  const { profession, avatar, social } = props;
+  const { profession, avatar, social, technologies } = props;
 
   return(
     <section id="aboutMe" className="aboutMe">
       <h1>{profession}</h1>
       <div className="aboutMe_avatar">
         <img src={avatar} alt="Imagen Avatar Kike"/>
+      </div>
+      <div className="aboutMe_technologies">
+        <div className="technologies_front">
+          <h3>FrontEnd</h3>
+          {
+            technologies.frontend &&
+              technologies.frontend.map((tech) => {
+                const { name, logo } = tech;
+                return(
+                  <article>
+                    <img src={logo} alt={name} />
+                    <p>{name}</p>
+                  </article>
+                )
+              })
+          }
+        </div>
+        <div className="technologies_back">
+          <h3>BackEnd</h3>
+          {
+            technologies.backend &&
+              technologies.backend.map((tech) => {
+                const { name, logo } = tech;
+                return(
+                  <article>
+                    <img src={logo} alt={name} />
+                    <p>{name}</p>
+                  </article>
+                )
+              })
+          }
+        </div>
+        <div className="technologies_other">
+          <h3>Complemento</h3>
+          {
+            technologies.others &&
+              technologies.others.map((tech) => {
+                const { name, logo } = tech;
+                return(
+                  <article>
+                    <img src={logo} alt={name} />
+                    <p>{name}</p>
+                  </article>
+                )
+              })
+          }
+        </div>
       </div>
       <div className="aboutMe_social">
         {

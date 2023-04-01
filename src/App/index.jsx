@@ -26,6 +26,7 @@ function App() {
           profession={data.profession}
           avatar={data.avatar}
           social={data.social}
+          technologies={data.Technologies}
         />
         <AboutMe
           profession={data.profession}

@@ -397,68 +397,70 @@
         ]
       }
     ],
-    "Technologies": [
-      {
-        "name": "HTML",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
-      },
-      {
-        "name": "CSS",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
-      },
-      {
-        "name": "JavaScript",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
-      },
-      {
-        "name": "React",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/react.svg?alt=media&token=86af7011-2848-41e7-ae2f-8105b8d171c0"
-      },
-      {
-        "name": "Web Components",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/webcomponents.svg?alt=media&token=3af32bc5-c76a-4a73-8cf3-ffc0758f69c1"
-      },
-      {
-        "name": "NPM",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/npm.svg?alt=media&token=d3e54f49-47ce-40e0-99a8-ffa8b223837c"
-      },
-      {
-        "name": "Git",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/git.svg?alt=media&token=f7454f15-7643-474e-b5f3-e8ad117ba952"
-      },
-      {
-        "name": "GitHub",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github.svg?alt=media&token=bc886479-95f0-4a1d-99c9-6360ae268b2e"
-      },
-      {
-        "name": "Webpack",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/webpack.svg?alt=media&token=300fd66e-a2b3-40a8-b481-88b1cd3408ff"
-      },
-      {
-        "name": "Sass",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sass.svg?alt=media&token=cd3f50c6-cbd4-45cc-b167-c6e98bc99396"
-      },
-      {
-        "name": "Stylus",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/stylus.svg?alt=media&token=f62a908c-5f38-46c8-a9bc-91caa7e178c2"
-      },
-      {
-        "name": "Less",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/less.png?alt=media&token=56e28527-b7c1-4cdb-a35e-4f191a317f12"
-      },
-      {
-        "name": "Figma",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/figma.svg?alt=media&token=cbdd60c7-1563-49eb-b445-6db298aadd13"
-      },
-      {
-        "name": "Adobe XD",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/adobexd.svg?alt=media&token=8e5e4794-0a26-4546-9a01-3bccba71941f"
-      },
-      {
-        "name": "Pug",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/pug.png?alt=media&token=157eace6-a7d0-4dbf-b356-049ba5a5c7e4"
-      }
-    ],
+    "Technologies": {
+      "frontend": [
+        {
+          "name": "HTML5",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+        },
+        {
+          "name": "CSS3",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+        },
+        {
+          "name": "JavaScript",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+        },
+        {
+          "name": "React",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/react.svg?alt=media&token=86af7011-2848-41e7-ae2f-8105b8d171c0"
+        },
+        {
+          "name": "Redux",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/redux.svg?alt=media&token=492a657a-39e3-445a-a729-6aace9e5c21c"
+        },
+        {
+          "name": "Sass",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sass.svg?alt=media&token=cd3f50c6-cbd4-45cc-b167-c6e98bc99396"
+        },
+        {
+          "name": "BootStrap",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/bootstrap.svg?alt=media&token=40e268bf-7026-48e4-a738-d5397acb160e"
+        }
+      ],
+      "backend": [
+        {
+          "name": "NodeJS",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Node.png?alt=media&token=a67e84fc-9b40-4786-a578-65c37ec706f6"
+        },
+        {
+          "name": "Express",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Express.png?alt=media&token=12518b3a-72da-4683-a0c1-4accc04130ed"
+        },
+        {
+          "name": "Sequelize",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sequelize.svg?alt=media&token=a748b0f1-96d5-4ea2-b34a-92139585e370"
+        },
+        {
+          "name": "PostgresSQL",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
+        }
+      ],
+      "others": [
+        {
+          "name": "Git",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/git.svg?alt=media&token=f7454f15-7643-474e-b5f3-e8ad117ba952"
+        },
+        {
+          "name": "GitHub",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github.svg?alt=media&token=bc886479-95f0-4a1d-99c9-6360ae268b2e"
+        },
+        {
+          "name": "Figma",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/figma.svg?alt=media&token=cbdd60c7-1563-49eb-b445-6db298aadd13"
+        }
+      ]
+    },
     "skills": [
       {
         "name": "Responsive Design",

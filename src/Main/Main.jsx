@@ -5,7 +5,7 @@ const Main = (props) => {
 
   return (
     <>
-      <main className='Main'>
+      <main className='main'>
         {children}
       </main>
     </>

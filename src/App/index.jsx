@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
+import Hero from '../Hero/Hero';
 import Education from '../Education/Education';
 import Projects from '../Projects/Projects';
 import myData from '../data/data.json';
@@ -21,6 +22,11 @@ function App() {
       >
       </Header>
       <Main>
+        <Hero
+          profession={data.profession}
+          avatar={data.avatar}
+          social={data.social}
+        />
         <AboutMe
           profession={data.profession}
           avatar={data.avatar}

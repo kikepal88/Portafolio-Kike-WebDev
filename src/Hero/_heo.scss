@@ -1,0 +1,40 @@
+.aboutMe {
+  @include description_section;
+  &_avatar {
+    width: 190px;
+    height: 190px;
+    margin: 10px auto 20px;
+    border: 2px solid $Color-complemento2;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  &_social {
+    width: 250px;
+    height: 40px;
+    margin: 0 auto 20px;
+    @include flex;
+    .social_icon {
+      width: 40px;
+      height: 40px;
+      filter: drop-shadow(3px 3px 5px $Color-primario);
+    }
+  }
+  &_buttonCV {
+    margin: 0 auto 20px;
+    text-align: center;
+    button {
+      @include button_mobile;
+    }
+  }
+  &_hobbies {
+    @extend .aboutMe_social;
+    margin: 0 auto;
+    .hobbies_icon {
+      width: 40px;
+      height: 40px;
+    }
+    .hobbies_icon:first-child {
+      width: 45px;
+    }
+  }
+}

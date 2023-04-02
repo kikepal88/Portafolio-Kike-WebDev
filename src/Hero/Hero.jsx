@@ -3,6 +3,8 @@ import React from "react";
 function Hero (props) {
   const { profession, avatar, social, technologies } = props;
 
+  console.log(technologies);
+
   return(
     <section id="aboutMe" className="aboutMe">
       <h1>{profession}</h1>
@@ -13,46 +15,46 @@ function Hero (props) {
         <div className="technologies_front">
           <h3>FrontEnd</h3>
           {
-            technologies.frontend &&
-              technologies.frontend.map((tech) => {
-                const { name, logo } = tech;
-                return(
-                  <article>
-                    <img src={logo} alt={name} />
-                    <p>{name}</p>
-                  </article>
-                )
-              })
+            technologies &&
+            technologies.frontend.map((tech) => {
+              const { name, logo } = tech;
+              return(
+                <article key={name}>
+                  <img src={logo} alt={name} />
+                  <p>{name}</p>
+                </article>
+              )
+            })
           }
         </div>
         <div className="technologies_back">
           <h3>BackEnd</h3>
           {
-            technologies.backend &&
-              technologies.backend.map((tech) => {
-                const { name, logo } = tech;
-                return(
-                  <article>
-                    <img src={logo} alt={name} />
-                    <p>{name}</p>
-                  </article>
-                )
-              })
+            technologies &&
+            technologies.backend.map((tech) => {
+              const { name, logo } = tech;
+              return(
+                <article key={name}>
+                  <img src={logo} alt={name} />
+                  <p>{name}</p>
+                </article>
+              )
+            })
           }
         </div>
         <div className="technologies_other">
           <h3>Complemento</h3>
           {
-            technologies.others &&
-              technologies.others.map((tech) => {
-                const { name, logo } = tech;
-                return(
-                  <article>
-                    <img src={logo} alt={name} />
-                    <p>{name}</p>
-                  </article>
-                )
-              })
+            technologies &&
+            technologies.others.map((tech) => {
+              const { name, logo } = tech;
+              return(
+                <article key={name}>
+                  <img src={logo} alt={name} />
+                  <p>{name}</p>
+                </article>
+              )
+            })
           }
         </div>
       </div>

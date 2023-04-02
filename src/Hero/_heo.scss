@@ -12,33 +12,26 @@
   &_technologies {
     width: 100%;
     height: auto;
-    margin: 0;
-    padding: 0 10px;
     text-align: center;
-    .technologies_front {
-      @include flex;
-      justify-content: center;
-      flex-wrap: wrap;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179);
+    background-repeat: no-repeat;
+    background-position: 45% 2%, 2% 90%, 85% 90%;
+    background-size: 150px, 100px, 50px;
+    animation: AnimateBGTech 30s linear infinite;
+    h4 {
+      margin-block-end: 5px;
+    }
+    .front_container, .back_container, .other_container {
+      @include flex-wrap-center;
       width: 100%;
       height: auto;
-      h3 {
-        width: 100%;
-        margin-block-end: 10px;
-      }
+      margin-block-end: 10px;
+      padding: 5px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 6px 1px $Color-complemento2;
       article {
-        @include flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 20%;
-        height: auto;
-        padding: 8px;
-        img {
-          width: 40px;
-          margin-block-end: 5px;
-        }
-        p {
-          font-size: $p-size-p2;
-        }
+        @include flex-wrap-center;
+        @include article-tech-icon;
       }
     }
   }
@@ -48,27 +41,47 @@
     margin: 0 auto 20px;
     @include flex;
     .social_icon {
-      width: 40px;
-      height: 40px;
-      filter: drop-shadow(3px 3px 5px $Color-primario);
+      width: 35px;
+      height: 35px;
+      filter: drop-shadow(3px 3px 5px $Color-secundario);
     }
   }
   &_buttonCV {
-    margin: 0 auto 20px;
+    margin: 20px auto;
     text-align: center;
     button {
       @include button_mobile;
     }
-  }
-  &_hobbies {
-    @extend .aboutMe_social;
-    margin: 0 auto;
-    .hobbies_icon {
-      width: 40px;
-      height: 40px;
-    }
-    .hobbies_icon:first-child {
-      width: 45px;
+    button:hover {
+      @include button_mobile_hover;
     }
   }
 }
+
+@keyframes AnimateBGTech {
+  0% {
+    background-position: 50% 0%, 0% 60%, 0% 50%;
+    background-size: 150px, 100px, 50px;
+  }
+  20% {
+    background-position: 100% 40%, 30% 0%, 50% 75%;
+    background-size: 130px, 125px, 80px;
+  }
+  40% {
+    background-position: 60% 100%, 60% 0%, 100% 100%;
+    background-size: 110px, 100px, 110px;
+  }
+  60% {
+    background-position: 30% 100%, 100% 60%, 100% 0%;
+    background-size: 110px, 100px, 110px;
+  }
+  80% {
+    background-position: 0% 40%, 50% 100%, 50% 25%;
+    background-size: 130px, 75px, 80px;
+  }
+  100% {
+    background-position: 50% 0%, 0% 60%, 0% 50%;
+    background-size: 150px, 100px, 50px;
+  }
+}
+

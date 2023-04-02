@@ -13,7 +13,8 @@ function Hero (props) {
       </div>
       <div className="hero_technologies">
         <div className="technologies_front">
-          <h3>FrontEnd</h3>
+          <h4>FrontEnd</h4>
+          <div className="front_container">
           {
             technologies &&
             technologies.frontend.map((tech) => {
@@ -26,9 +27,11 @@ function Hero (props) {
               )
             })
           }
+          </div>
         </div>
         <div className="technologies_back">
-          <h3>BackEnd</h3>
+          <h4>BackEnd</h4>
+          <div className="back_container">
           {
             technologies &&
             technologies.backend.map((tech) => {
@@ -41,9 +44,11 @@ function Hero (props) {
               )
             })
           }
+          </div>
         </div>
         <div className="technologies_other">
-          <h3>Complemento</h3>
+          <h4>Complementarias</h4>
+          <div className="other_container">
           {
             technologies &&
             technologies.others.map((tech) => {
@@ -56,7 +61,11 @@ function Hero (props) {
               )
             })
           }
+          </div>
         </div>
+      </div>
+      <div className="hero_buttonCV">
+        <button>DESCARGA MI CV</button>
       </div>
       <div className="hero_social">
         {
@@ -74,9 +83,6 @@ function Hero (props) {
               )
             })
         }
-      </div>
-      <div className="hero_buttonCV">
-        <button>DESCARGA MI CV</button>
       </div>
     </section>
 

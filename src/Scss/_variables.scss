@@ -39,6 +39,28 @@ $h1-lh-size-g: 4.147rem;
   flex-wrap: nowrap;
 }
 
+@mixin flex-wrap-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin article-tech-icon {
+  width: 25%;
+  height: auto;
+  padding: 3px 8px;
+  // filter: drop-shadow(2px 2px 4px $Color-secundario);
+  img {
+    width: 30px;
+    margin-block-end: 3px;
+  }
+  p {
+    width: 100%;
+    font-size: $p-size-p2;
+  }
+}
+
 @mixin button_mobile {
   display: inline;
   width: auto;
@@ -47,11 +69,16 @@ $h1-lh-size-g: 4.147rem;
   color: $Color-claro;
   font-size: 1.8rem;
   line-height: 2.52rem;
-  background-color: $Color-secundario;
-  border: 2px solid $Color-complemento2;
+  background: linear-gradient(to right, $Color-complemento 0%, $Color-secundario 100%);
   border-radius: 10px;
-  box-shadow: 1px 1px 5px 0px $Color-complemento2;
+  filter: drop-shadow(2px 2px 4px $Color-complemento2);
+  transition: 0.5s;
   cursor: pointer;
+}
+
+@mixin button_mobile_hover {
+  background: linear-gradient(to left, $Color-complemento 0%, $Color-secundario 100%);
+  transform: scale(1.02);
 }
 
 @mixin description_section {

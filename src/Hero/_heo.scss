@@ -1,12 +1,46 @@
-.aboutMe {
+.hero {
   @include description_section;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg.png?alt=media&token=f8b61de7-2c79-469b-9083-6a1ffc1c4ca2);
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  background-size: 250px;
   &_avatar {
     width: 190px;
     height: 190px;
-    margin: 10px auto 20px;
-    border: 2px solid $Color-complemento2;
-    border-radius: 50%;
-    overflow: hidden;
+    margin: 20px auto;
+  }
+  &_technologies {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    .technologies_front {
+      @include flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: auto;
+      h3 {
+        width: 100%;
+        margin-block-end: 10px;
+      }
+      article {
+        @include flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 20%;
+        height: auto;
+        padding: 8px;
+        img {
+          width: 40px;
+          margin-block-end: 5px;
+        }
+        p {
+          font-size: $p-size-p2;
+        }
+      }
+    }
   }
   &_social {
     width: 250px;

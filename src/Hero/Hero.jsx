@@ -6,12 +6,12 @@ function Hero (props) {
   console.log(technologies);
 
   return(
-    <section id="aboutMe" className="aboutMe">
+    <section id="hero" className="hero">
       <h1>{profession}</h1>
-      <div className="aboutMe_avatar">
+      <div className="hero_avatar">
         <img src={avatar} alt="Imagen Avatar Kike"/>
       </div>
-      <div className="aboutMe_technologies">
+      <div className="hero_technologies">
         <div className="technologies_front">
           <h3>FrontEnd</h3>
           {
@@ -58,7 +58,7 @@ function Hero (props) {
           }
         </div>
       </div>
-      <div className="aboutMe_social">
+      <div className="hero_social">
         {
           social &&
             social.map((socialMedia) => {
@@ -75,7 +75,7 @@ function Hero (props) {
             })
         }
       </div>
-      <div className="aboutMe_buttonCV">
+      <div className="hero_buttonCV">
         <button>DESCARGA MI CV</button>
       </div>
     </section>

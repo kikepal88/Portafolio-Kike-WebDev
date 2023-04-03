@@ -47,6 +47,7 @@ $h1-lh-size-g: 4.147rem;
 }
 
 @mixin article-tech-icon {
+  max-width: 70px;
   height: auto;
   padding: 3px 5px;
   img {

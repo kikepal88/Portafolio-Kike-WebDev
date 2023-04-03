@@ -104,7 +104,6 @@
   .hero {
     position: relative;
     background-position: calc(50% + 250px) 75px;
-    background-size: 250px;
     h1 {
       width: 100%;
     }
@@ -117,7 +116,11 @@
     }
     &_technologies {
       width: 72%;
-      margin-block-start: 20px;
+      margin-block-start: 30px;
+      background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179);
+    background-repeat: no-repeat;
+    background-position: 50% 0%, 0% 60%, 0% 0%, 50% 50%;
+    background-size: 160px, 120px, 80px, 40px;
       .technologies_front, .technologies_back, .technologies_other {
         @include flex-wrap-center;
         margin-block-end: 15px;
@@ -135,11 +138,13 @@
         }
       }
       .back_container {
+        max-width: 290px;
         article {
           width: 25%;
         }
       }
       .other_container {
+        max-width: 190px;
         article {
           width: 33%;
         }
@@ -153,24 +158,112 @@
     }
     &_buttonCV {
       position: absolute;
-      top: 300px;
+      top: 315px;
       left: calc(50% - 150px);
+    }
+  }
+
+  @keyframes AnimateBGTech {
+    0% {
+      background-position: 50% 0%, 0% 60%, 0% 0%, 95% 100%;
+      background-size: 160px, 120px, 80px, 40px;
+    }
+    20% {
+      background-position: 95% 40%, 30% 0%, 25% 20%, 75% 80%;
+      background-size: 140px, 130px, 90px, 60px;
+    }
+    40% {
+      background-position: 70% 100%, 70% 0%, 50% 50%, 50% 50%;
+      background-size: 120px, 110px, 60px, 80px;
+    }
+    60% {
+      background-position: 30% 100%, 95% 60%, 25% 80%, 75% 20%;
+      background-size: 110px, 100px, 50px, 70px;
+    }
+    80% {
+      background-position: 0% 40%, 50% 95%, 0% 100%, 95% 0%;
+      background-size: 140px, 130px, 90px, 60px;
+    }
+    100% {
+      background-position: 50% 0%, 0% 60%, 0% 0%, 95% 100%;
+      background-size: 160px, 120px, 80px, 40px;
     }
   }
 }
 
 @media screen and (min-width: 900px) {
-
+  .hero {
+    background-position: calc(50% + 280px) 75px;
+    &_avatar {
+      left: calc(50% + 180px);
+    }
+    &_technologies {
+      width: 70%;
+    }
+    &_social {
+      left: calc(50% + 180px);
+    }
+    &_buttonCV {
+      left: calc(50% - 170px);
+    }
+  }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
+  .hero {
+    min-height: 390px;
+    background-position: calc(50% + 370px) 80px;
+    background-size: 270px;
+    &_avatar {
+      top: 80px;
+      left: calc(50% + 260px);
+      width: 220px;
+      height: 220px;
+    }
+    &_technologies {
+      @include flex-wrap-center;
+      margin-block-start: 70px;
+      .technologies_front {
+        margin-block-end: 25px;
+      }
+      .back_container {
+        margin-inline-end: 30px;
+      }
+    }
+    &_social {
+      top: 330px;
+      left: calc(50% + 280px);
+    }
+    &_buttonCV {
+      top: 295px;
+      left: calc(50% - 200px);
+    }
+  }
 
-}
-
-@media screen and (min-width: 1240px) {
-
-}
-
-@media screen and (min-width: 1440px) {
-
+  @keyframes AnimateBGTech {
+    0% {
+      background-position: 50% 0%, 0% 60%, 0% 0%, 100% 100%;
+      background-size: 160px, 120px, 80px, 40px;
+    }
+    20% {
+      background-position: 100% 40%, 30% 0%, 25% 20%, 75% 80%;
+      background-size: 140px, 130px, 90px, 60px;
+    }
+    40% {
+      background-position: 70% 100%, 70% 0%, 50% 50%, 50% 50%;
+      background-size: 120px, 110px, 60px, 80px;
+    }
+    60% {
+      background-position: 30% 100%, 100% 60%, 25% 80%, 75% 20%;
+      background-size: 110px, 100px, 50px, 70px;
+    }
+    80% {
+      background-position: 0% 40%, 50% 100%, 0% 100%, 100% 0%;
+      background-size: 140px, 130px, 90px, 60px;
+    }
+    100% {
+      background-position: 50% 0%, 0% 60%, 0% 0%, 100% 100%;
+      background-size: 160px, 120px, 80px, 40px;
+    }
+  }
 }

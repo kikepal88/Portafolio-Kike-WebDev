@@ -65,7 +65,7 @@ function Hero (props) {
         </div>
       </div>
       <div className="hero_buttonCV">
-        <button>DESCARGA MI CV</button>
+        <a href="https://drive.google.com/file/d/1tiUQGtTNJen2v-ODZdEgi8cq4531RWbC/view?usp=sharing" target="_blank" rel="noreferrer">DESCARGA MI CV</a>
       </div>
       <div className="hero_social">
         {

@@ -1,5 +1,4 @@
 .hero {
-  @include description_section;
   background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg.png?alt=media&token=f8b61de7-2c79-469b-9083-6a1ffc1c4ca2);
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -43,16 +42,17 @@
     .social_icon {
       width: 35px;
       height: 35px;
-      filter: drop-shadow(3px 3px 5px $Color-secundario);
+      filter: drop-shadow(1px 1px 5px $Color-secundario);
     }
   }
   &_buttonCV {
-    margin: 20px auto;
+    height: 40px;
+    margin: 30px auto 20px;
     text-align: center;
-    button {
+    a {
       @include button_mobile;
     }
-    button:hover {
+    a:hover {
       @include button_mobile_hover;
     }
   }
@@ -60,28 +60,35 @@
 
 @keyframes AnimateBGTech {
   0% {
-    background-position: 50% 0%, 0% 60%, 0% 50%;
+    background-position: 50% 0%, 0% 60%, 0% 0%;
     background-size: 150px, 100px, 50px;
   }
   20% {
-    background-position: 100% 40%, 30% 0%, 50% 75%;
+    background-position: 100% 40%, 30% 0%, 0% 100%;
     background-size: 130px, 125px, 80px;
   }
   40% {
-    background-position: 60% 100%, 60% 0%, 100% 100%;
+    background-position: 60% 100%, 60% 0%, 100% 0%;
     background-size: 110px, 100px, 110px;
   }
   60% {
-    background-position: 30% 100%, 100% 60%, 100% 0%;
+    background-position: 30% 100%, 100% 60%, 100% 100%;
     background-size: 110px, 100px, 110px;
   }
   80% {
-    background-position: 0% 40%, 50% 100%, 50% 25%;
+    background-position: 0% 40%, 50% 100%, 50% 50%;
     background-size: 130px, 75px, 80px;
   }
   100% {
-    background-position: 50% 0%, 0% 60%, 0% 50%;
+    background-position: 50% 0%, 0% 60%, 0% 0%;
     background-size: 150px, 100px, 50px;
   }
 }
 
+@media screen and (min-width: 424px) {
+  
+}
+
+@media screen and (min-width: 767px) {
+
+}

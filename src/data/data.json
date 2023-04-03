@@ -480,24 +480,24 @@
     ],
     "social": [
       {
-        "name": "twitter",
-        "url": "https://twitter.com/kikepal88",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/twitter_azul.svg?alt=media&token=75b31ef6-3a2e-4562-9af6-f8eb73a33671"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/kikepal88/?hl=es-la",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/instagram_azul.svg?alt=media&token=92d2097b-346e-4121-bfc3-393864d1bd5d"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/omarpal/",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/linkedin_azul2.svg?alt=media&token=c8dba7b1-14ae-4684-965d-c9a3805d3820"
       },
       {
         "name": "github",
         "url": "https://github.com/kikepal88",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github_azul.svg?alt=media&token=f1eeae25-72c9-4b83-bd37-6ea293258521"
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github_azul2.svg?alt=media&token=4b4d1e49-b093-4b32-90a2-d8f8142b08a0"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/omarpal/",
-        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/linkedin_azul.svg?alt=media&token=c7a2b63d-454a-46b5-913e-699340f8ef3b"
+        "name": "twitter",
+        "url": "https://twitter.com/kikepal88",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/twitter_azul2.svg?alt=media&token=88895b55-1f74-45b3-9c17-527dd73aef2d"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/kikepal88/?hl=es-la",
+        "image": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/instagram_azul2.svg?alt=media&token=3457683a-31de-4836-9d3b-a578af5acadb"
       }
     ],
     "hobbies": [

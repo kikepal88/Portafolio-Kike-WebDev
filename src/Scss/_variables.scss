@@ -47,10 +47,8 @@ $h1-lh-size-g: 4.147rem;
 }
 
 @mixin article-tech-icon {
-  width: 25%;
   height: auto;
-  padding: 3px 8px;
-  // filter: drop-shadow(2px 2px 4px $Color-secundario);
+  padding: 3px 5px;
   img {
     width: 30px;
     margin-block-end: 3px;

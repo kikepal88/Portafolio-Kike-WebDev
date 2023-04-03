@@ -209,7 +209,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1240px) {
   .hero {
     min-height: 390px;
     background-position: calc(50% + 370px) 80px;
@@ -221,7 +221,6 @@
       height: 220px;
     }
     &_technologies {
-      @include flex-wrap-center;
       margin-block-start: 70px;
       .technologies_front {
         margin-block-end: 25px;

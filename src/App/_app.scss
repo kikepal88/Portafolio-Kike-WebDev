@@ -55,3 +55,26 @@ img {
     padding: 30px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: $h1-size-g;
+    line-height: $h1-lh-size-g;
+  }
+  h2 {
+    font-size: $h2-size-g;
+    line-height: $h2-lh-size-g;
+  }
+  h3 {
+    font-size: $h3-size-g;
+    line-height: $h3-lh-size-g;
+  }
+  h4 {
+    font-size: $h4-size-g;
+    line-height: $h4-lh-size-g;
+  }
+  p {
+    font-size: $p-size-g;
+    line-height: $p-lh-size-g;
+  }
+}

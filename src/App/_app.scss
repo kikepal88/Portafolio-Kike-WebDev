@@ -41,7 +41,7 @@ section {
   max-width: 1240px;
   width: 100%;
   margin: auto;
-  padding: 20px;
+  padding: 15px 20px;
 }
 
 img {
@@ -52,7 +52,7 @@ img {
 
 @media screen and (min-width: 767px) {
   section {
-    padding: 30px;
+    padding: 15px 30px;
   }
 }
 
@@ -76,5 +76,14 @@ img {
   p {
     font-size: $p-size-g;
     line-height: $p-lh-size-g;
+  }
+  section {
+    padding: 15px 40px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  section {
+    padding: 20px 60px;
   }
 }

@@ -29,23 +29,19 @@ function App() {
           technologies={data.Technologies}
         />
         <AboutMe
-          profession={data.profession}
-          avatar={data.avatar}
           ProfileText={data.ProfileText}
-          social={data.social}
-          hobbies={data.hobbies}
         >
         </AboutMe>
-        <Education
-          EducationText={data.EducationText}
-          Schools={data.Schools}
-        >
-        </Education>
         <Projects
           ProjectsText={data.ProjectsText}
           Projects={data.Projects}
         >
         </Projects>
+        <Education
+          EducationText={data.EducationText}
+          Schools={data.Schools}
+        >
+        </Education>
       </Main>
     </React.Fragment>
   );

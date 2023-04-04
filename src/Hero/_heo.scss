@@ -1,4 +1,5 @@
 .hero {
+  padding-block-start: 20px;
   background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg.png?alt=media&token=f8b61de7-2c79-469b-9083-6a1ffc1c4ca2);
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -39,7 +40,7 @@
   &_social {
     width: 250px;
     height: 40px;
-    margin: 0 auto 20px;
+    margin: 0 auto;
     @include flex;
     .social_icon {
       width: 35px;
@@ -103,6 +104,7 @@
 @media screen and (min-width: 767px) {
   .hero {
     position: relative;
+    min-height: 395px;
     background-position: calc(50% + 245px) 105px;
     h1 {
       width: 100%;
@@ -213,6 +215,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero {
+    min-height: 400px;
     background-position: calc(50% + 290px) 100px;
     background-size: 270px;
     &_avatar {

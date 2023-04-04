@@ -1,7 +1,7 @@
 import React from "react";
 
 function AboutMe (props) {
-  const { ProfileText, hobbies } = props;
+  const { ProfileText } = props;
 
   return(
     <section id="aboutMe" className="aboutMe">
@@ -13,21 +13,7 @@ function AboutMe (props) {
           {ProfileText}
         </p>
       </div>
-      <div className="aboutMe_hobbies">
-        {
-          hobbies &&
-            hobbies.map((hobbie) => {
-              const { icon } = hobbie;
-              return(
-                <div className="hobbies_icon" key={icon}>
-                  <img src={hobbie.icon} alt={hobbie.name} />
-                </div>
-              )
-            })
-        }
-      </div>
     </section>
-
   );
 }
 

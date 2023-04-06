@@ -15,6 +15,7 @@ h1 {
   font-weight: 700;
   color: $Color-secundario;
   text-align: center;
+  filter: drop-shadow(1px 1px 12px $Color-secundario);
 }
 h2 {
   font-size: $h2-size-p;

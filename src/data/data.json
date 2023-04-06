@@ -8,9 +8,9 @@
     "phone": "3015417060",
     "avatar": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Avatar-removebg.png?alt=media&token=f13b9855-eb9e-4407-9298-4f5bc72a8590",
     "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/KIKE%20PALACIOS.svg?alt=media&token=b69e003c-2617-4771-9238-2aca09f6199d",
-    "ProfileText": "Experiencia en el Desarrollo Web a través del aprendizaje y la ejecución de proyectos tanto de forma individual como colaborativa, diseño y maquetación de interfaces completamente responsivas, he creado páginas y aplicaciones web interactivas para los usuarios, desarrollo de servidores para el consumo de APIs y BD. Background técnico en ingeniería civil donde he apoyado, coordinado y liderado equipos de trabajo en diferentes proyectos, solucionando conflictos.",
-    "EducationText": "Mis estudios en Desarrollo Web están enfocados en Front-End y los desarrollé estudiando en Platzi, donde he realizado más de 50 cursos sobre tecnologías Web, diseño UX/UI, entre otros.",
-    "ProjectsText": "Mi experiencia en Desarrollo Web la he construido a partir de proyectos personales, retos de la escuela de desarrollo Web en Platzi y un proyecto startup EdTech llamado Melifluo. Tengo la capacidad de construir páginas web responsive (mobile first), Mi objetivo a corto plazo es programar páginas web de forma profesional y continuar mi aprendizaje para  mejorar mis habilidades.",
+    "ProfileText": "Experiencia en el Desarrollo Web a través del aprendizaje y la ejecución de proyectos tanto de forma individual como colaborativa, he diseñado y maquetado interfaces completamente responsivas, creado páginas y aplicaciones web interactivas para los usuarios, desarrollado servidores para el consumo de APIs y BD. Poseo background técnico en ingeniería civil donde he apoyado, coordinado y liderado equipos de trabajo en diferentes proyectos, solucionando conflictos.",
+    "EducationText": "Por medio de la plataforma Platzi estoy en constante aprendizaje en Desarrollo Web lo cual se complementa con el Bootcamp de Henry el cual completé como Full Stack Developer",
+    "ProjectsText": "Páginas y aplicaciones web con interfaces que se adaptan a cualquier dispositivo, interactivas y con persistencia de datos por medio de servidores para implementación de solicitudes CRUD del lado del cliente en las mismas.",
     "Schools": [
       {
         "name": "Desarrollo Web",
@@ -329,10 +329,9 @@
     "Projects": [
       {
         "name": "Melifluo",
-        "description": "Construcción página de pre-lanzamiento de un proyecto startup EdTech llamado Melifluo, una escuela online para aficionados a la música.",
+        "description": "Construcción Front en entorno colaborativo de página web responsive de pre lanzamiento de un proyecto startup EdTech llamado Melifluo. Maquetación de interfaces completamente responsive por medio de HTML semántico y CSS, desarrollo de lógica para manipulación de las interfaces con JavaScript.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo.PNG?alt=media&token=b444ccee-1ef2-4815-99b3-d386e842be3c",
         "url_repo": "https://github.com/kikepal88/Melifluo-Web",
         "url_demo": "https://kikepal88.github.io/Melifluo-Web/",
         "technologies": [
@@ -352,10 +351,9 @@
       },
       {
         "name": "MiniTutorialesWebDev",
-        "description": "Es un espacio con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base, seguro encontrarás consejos útiles a la hora de codear.",
+        "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base (HTML, CSS y JavaScript). Diseño y maquetación de interfaces completamente responsive por medio de HTML semántico y CSS, desarrollo de lógica para manipulación de las interfaces con JavaScript.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
-        "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Mobile.png?alt=media&token=781ae577-d3b1-46b9-bb29-7b0c1839e9cb",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_Desktop.png?alt=media&token=f17ebe18-8f7c-4929-bf7d-bf0e62d18edc",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev.PNG?alt=media&token=232ab2e2-8242-4a2f-8aea-05a169029e3b",
         "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",
         "url_demo": "https://kikepal88.github.io/MiniTutorialesWebDev/",
         "technologies": [
@@ -374,25 +372,78 @@
         ]
       },
       {
-        "name": "Melifluo2",
-        "description": "Construcción página de pre-lanzamiento de un proyecto startup EdTech llamado Melifluo, una escuela online para aficionados a la música.",
+        "name": "Henry Games",
+        "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API. Crear funciones CRUD cliente/servidor, persistencia de datos de lado del cliente por medio del manejo de estados locales y globales con React y Redux, y de lado del servidor por medio de BD con PostgresSQL, construcción de componentes de interfaces con React y CSS.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img_mobile": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Mobile.png?alt=media&token=46c8b84f-ae9d-458f-b50d-5ccfe01fd5a5",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo-Web_Desktop.png?alt=media&token=9b9f0335-4a18-4a38-826e-af643e369f26",
-        "url_repo": "https://github.com/kikepal88/Portafolio-Kike-WebDev",
-        "url_demo": "https://kikepal88.github.io/Portafolio-Kike-WebDev/",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/HenryGamesPNG.PNG?alt=media&token=9f37ea00-f135-4b91-a15c-745dcf0467d3",
+        "url_repo": "https://github.com/kikepal88/PI_Videogames_Deploy",
+        "url_demo": "https://pi-videogames-deploy-xi.vercel.app/",
         "technologies": [
           {
-            "name": "HTML",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+            "name": "React",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/react.svg?alt=media&token=86af7011-2848-41e7-ae2f-8105b8d171c0"
+          },
+          {
+            "name": "Redux",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/redux.svg?alt=media&token=492a657a-39e3-445a-a729-6aace9e5c21c"
           },
           {
             "name": "CSS",
             "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
           },
           {
-            "name": "JavaScript",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+            "name": "NodeJS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Node.png?alt=media&token=a67e84fc-9b40-4786-a578-65c37ec706f6"
+          },
+          {
+            "name": "Express",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Express.png?alt=media&token=12518b3a-72da-4683-a0c1-4accc04130ed"
+          },
+          {
+            "name": "Sequelize",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sequelize.svg?alt=media&token=a748b0f1-96d5-4ea2-b34a-92139585e370"
+          },
+          {
+            "name": "PostgreSQL",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
+          }
+        ]
+      },
+      {
+        "name": "PawCare",
+        "description": "Diseño y construcción FullStack en entorno colaborativo de aplicación web responsive para el contacto entre propietarios de mascotas con cuidadores de confianza. Crear funciones CRUD de lado del cliente para hacer solicitudes al servidor, persistencia de datos de lado del cliente por medio del LocalStorage y manejo de estados locales y globales con React y Redux, construcción de componentes de interfaces con React, Boostrap y CSS.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Pawcare_Logo_Color_2.png?alt=media&token=06732882-c86d-409d-8524-47e7cb9ad51b",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/PawCare.PNG?alt=media&token=38c78683-6e98-4b52-9480-161f282ad332",
+        "url_repo": "https://github.com/daifernandez/pf-pawcare",
+        "url_demo": "https://pawcare.vercel.app/",
+        "technologies": [
+          {
+            "name": "React",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/react.svg?alt=media&token=86af7011-2848-41e7-ae2f-8105b8d171c0"
+          },
+          {
+            "name": "Redux",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/redux.svg?alt=media&token=492a657a-39e3-445a-a729-6aace9e5c21c"
+          },
+          {
+            "name": "BootStrap",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/bootstrap.svg?alt=media&token=40e268bf-7026-48e4-a738-d5397acb160e"
+          },
+          {
+            "name": "NodeJS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Node.png?alt=media&token=a67e84fc-9b40-4786-a578-65c37ec706f6"
+          },
+          {
+            "name": "Express",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Express.png?alt=media&token=12518b3a-72da-4683-a0c1-4accc04130ed"
+          },
+          {
+            "name": "Sequelize",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sequelize.svg?alt=media&token=a748b0f1-96d5-4ea2-b34a-92139585e370"
+          },
+          {
+            "name": "PostgreSQL",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
           }
         ]
       }

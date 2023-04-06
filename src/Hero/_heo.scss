@@ -47,6 +47,9 @@
       height: 35px;
       filter: drop-shadow(1px 1px 5px $Color-secundario);
     }
+    .social_icon:hover {
+      filter: drop-shadow(1px 1px 5px $Color-complemento2);
+    }
   }
   &_buttonCV {
     height: 40px;

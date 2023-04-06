@@ -68,16 +68,16 @@ $h1-lh-size-g: 4.147rem;
   color: $Color-claro;
   font-size: 1.8rem;
   line-height: 2.52rem;
-  background: linear-gradient(to right, $Color-complemento 0%, $Color-secundario 100%);
+  background-color: $Color-secundario;
   border-radius: 10px;
-  filter: drop-shadow(2px 2px 4px $Color-complemento2);
+  filter: drop-shadow(2px 2px 5px $Color-secundario);
   transition: 0.5s;
   cursor: pointer;
 }
 
 @mixin button_mobile_hover {
-  background: linear-gradient(to left, $Color-complemento 0%, $Color-secundario 100%);
-  transform: scale(1.02);
+  background-color: $Color-complemento2;
+  filter: drop-shadow(2px 2px 5px $Color-complemento2);
 }
 
 @mixin description_section {

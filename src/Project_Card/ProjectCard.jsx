@@ -30,13 +30,12 @@ function ProjectCard (props) {
                     <div className="technologies_icon">
                       <img key={name} src={logo} alt={name} />
                     </div>
-                    <p>{name}</p>
                   </span>
                 )
               })
           }
         </div>
-        <div className="hero_buttonCV">
+        <div className="description_buttons">
           <a href={url_demo} target="_blank" rel="noreferrer">DEPLOY</a>
         </div>
       </div>

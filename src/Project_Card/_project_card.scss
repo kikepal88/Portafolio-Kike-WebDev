@@ -9,46 +9,47 @@
       .container_imgs {
         width: 100%;
         height: auto;
-        min-height: 250px;
+        min-height: 234px;
         border-radius: 10px 10px 0 0;
-        overflow: hidden;
         .imgs_desktop {
+          border-radius: 10px 10px 0 0;
           img {
-            object-fit: contain;
+            border-radius: 10px 10px 0 0;
           }
         }
       }
       .container_description {
         width: 100%;
         height: auto;
-        padding: 35px 20px 20px;
-        .description_buttons {
-          width: 100%;
-          height: auto;
-          margin-block: 20px;
-          @include flex;
-          .buttons button {
-            @include button_mobile;
-            padding: 5px 42px;
-          }
+        padding: 15px;
+        h3 {
+          margin-block-end: 5px;
+          color: $Color-secundario;
         }
         .description_technologies {
-          @include flex;
-          justify-content: center;
+          @include flex-wrap-center;
           width: 100%;
-          height: auto;
+          margin-block-start: 10px;
           .technologies_container {
-            width: 60px;
-            height: 57px;
-            text-align: center;
+            width: 42px;
             .technologies_icon {
-              width: 40px;
-              height: 40px;
+              width: 30px;
               margin: 0 auto;
             }
             p {
               font-size: $p-size-p2;
             }
+          }
+        }
+        .description_buttons {
+          @include flex-wrap-center;
+          width: 100%;
+          height: 50px;
+          margin-block-start: 10px;
+          a {
+            @include button_mobile;
+            width: 100%;
+            text-align: center;
           }
         }
       }

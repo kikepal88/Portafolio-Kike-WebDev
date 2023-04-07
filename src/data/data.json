@@ -328,52 +328,8 @@
     ],
     "Projects": [
       {
-        "name": "Melifluo",
-        "description": "Construcción Front en entorno colaborativo de página web responsive de pre lanzamiento de un proyecto startup EdTech llamado Melifluo. Maquetación de interfaces completamente responsive por medio de HTML semántico y CSS, desarrollo de lógica para manipulación de las interfaces con JavaScript.",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo.PNG?alt=media&token=b444ccee-1ef2-4815-99b3-d386e842be3c",
-        "url_repo": "https://github.com/kikepal88/Melifluo-Web",
-        "url_demo": "https://kikepal88.github.io/Melifluo-Web/",
-        "technologies": [
-          {
-            "name": "HTML",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
-          },
-          {
-            "name": "CSS",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
-          },
-          {
-            "name": "JavaScript",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
-          }
-        ]
-      },
-      {
-        "name": "MiniTutorialesWebDev",
-        "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base (HTML, CSS y JavaScript). Diseño y maquetación de interfaces completamente responsive por medio de HTML semántico y CSS, desarrollo de lógica para manipulación de las interfaces con JavaScript.",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev.PNG?alt=media&token=232ab2e2-8242-4a2f-8aea-05a169029e3b",
-        "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",
-        "url_demo": "https://kikepal88.github.io/MiniTutorialesWebDev/",
-        "technologies": [
-          {
-            "name": "HTML",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
-          },
-          {
-            "name": "CSS",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
-          },
-          {
-            "name": "JavaScript",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
-          }
-        ]
-      },
-      {
         "name": "Henry Games",
-        "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API. Crear funciones CRUD cliente/servidor, persistencia de datos de lado del cliente por medio del manejo de estados locales y globales con React y Redux, y de lado del servidor por medio de BD con PostgresSQL, construcción de componentes de interfaces con React y CSS.",
+        "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
         "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/HenryGamesPNG.PNG?alt=media&token=9f37ea00-f135-4b91-a15c-745dcf0467d3",
         "url_repo": "https://github.com/kikepal88/PI_Videogames_Deploy",
@@ -411,7 +367,7 @@
       },
       {
         "name": "PawCare",
-        "description": "Diseño y construcción FullStack en entorno colaborativo de aplicación web responsive para el contacto entre propietarios de mascotas con cuidadores de confianza. Crear funciones CRUD de lado del cliente para hacer solicitudes al servidor, persistencia de datos de lado del cliente por medio del LocalStorage y manejo de estados locales y globales con React y Redux, construcción de componentes de interfaces con React, Boostrap y CSS.",
+        "description": "Diseño y construcción FullStack en entorno colaborativo de aplicación web responsive para el contacto entre propietarios de mascotas con cuidadores de confianza.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Pawcare_Logo_Color_2.png?alt=media&token=06732882-c86d-409d-8524-47e7cb9ad51b",
         "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/PawCare.PNG?alt=media&token=38c78683-6e98-4b52-9480-161f282ad332",
         "url_repo": "https://github.com/daifernandez/pf-pawcare",
@@ -444,6 +400,50 @@
           {
             "name": "PostgreSQL",
             "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
+          }
+        ]
+      },
+      {
+        "name": "Melifluo",
+        "description": "Construcción del FrontEnd en entorno colaborativo de página web completamente responsive para pre lanzamiento de un proyecto startup EdTech llamado Melifluo.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo.PNG?alt=media&token=b444ccee-1ef2-4815-99b3-d386e842be3c",
+        "url_repo": "https://github.com/kikepal88/Melifluo-Web",
+        "url_demo": "https://kikepal88.github.io/Melifluo-Web/",
+        "technologies": [
+          {
+            "name": "HTML",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+          },
+          {
+            "name": "CSS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+          },
+          {
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          }
+        ]
+      },
+      {
+        "name": "MiniTutorialesWebDev",
+        "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base (HTML, CSS y JavaScript).",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev.PNG?alt=media&token=232ab2e2-8242-4a2f-8aea-05a169029e3b",
+        "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",
+        "url_demo": "https://kikepal88.github.io/MiniTutorialesWebDev/",
+        "technologies": [
+          {
+            "name": "HTML",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+          },
+          {
+            "name": "CSS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+          },
+          {
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
           }
         ]
       }

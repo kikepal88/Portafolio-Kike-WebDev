@@ -331,7 +331,7 @@
         "name": "Henry Games",
         "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/HenryGamesPNG.PNG?alt=media&token=9f37ea00-f135-4b91-a15c-745dcf0467d3",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/HenryGames_IMG.png?alt=media&token=ea86f681-46eb-4b03-9b41-d1eb30be35e3",
         "url_repo": "https://github.com/kikepal88/PI_Videogames_Deploy",
         "url_demo": "https://pi-videogames-deploy-xi.vercel.app/",
         "technologies": [
@@ -369,7 +369,7 @@
         "name": "PawCare",
         "description": "Diseño y construcción FullStack en entorno colaborativo de aplicación web responsive para el contacto entre propietarios de mascotas con cuidadores de confianza.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Pawcare_Logo_Color_2.png?alt=media&token=06732882-c86d-409d-8524-47e7cb9ad51b",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/PawCare.PNG?alt=media&token=38c78683-6e98-4b52-9480-161f282ad332",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/PawCare_IMG.png?alt=media&token=acda5279-fbb4-4c86-bb84-496f00697012",
         "url_repo": "https://github.com/daifernandez/pf-pawcare",
         "url_demo": "https://pawcare.vercel.app/",
         "technologies": [
@@ -407,7 +407,7 @@
         "name": "Melifluo",
         "description": "Construcción del FrontEnd en entorno colaborativo de página web completamente responsive para pre lanzamiento de un proyecto startup EdTech llamado Melifluo.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo.PNG?alt=media&token=b444ccee-1ef2-4815-99b3-d386e842be3c",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo_IMG.png?alt=media&token=96440b3d-664a-4262-affa-57886be7f1cf",
         "url_repo": "https://github.com/kikepal88/Melifluo-Web",
         "url_demo": "https://kikepal88.github.io/Melifluo-Web/",
         "technologies": [
@@ -429,7 +429,7 @@
         "name": "MiniTutorialesWebDev",
         "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base (HTML, CSS y JavaScript).",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev.PNG?alt=media&token=232ab2e2-8242-4a2f-8aea-05a169029e3b",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_IMG.png?alt=media&token=faf55b6d-2cb7-47b4-a34f-faff799caa4d",
         "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",
         "url_demo": "https://kikepal88.github.io/MiniTutorialesWebDev/",
         "technologies": [

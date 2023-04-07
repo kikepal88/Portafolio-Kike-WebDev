@@ -5,3 +5,11 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .projects {
+    &_project {
+      @include flex-wrap-center;
+    }
+  }
+}

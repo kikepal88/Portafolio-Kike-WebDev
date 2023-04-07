@@ -329,7 +329,7 @@
     "Projects": [
       {
         "name": "Henry Games",
-        "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API.",
+        "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API externa.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
         "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/HenryGames_IMG.png?alt=media&token=ea86f681-46eb-4b03-9b41-d1eb30be35e3",
         "url_repo": "https://github.com/kikepal88/PI_Videogames_Deploy",
@@ -427,7 +427,7 @@
       },
       {
         "name": "MiniTutorialesWebDev",
-        "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base (HTML, CSS y JavaScript).",
+        "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
         "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_IMG.png?alt=media&token=faf55b6d-2cb7-47b4-a34f-faff799caa4d",
         "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",

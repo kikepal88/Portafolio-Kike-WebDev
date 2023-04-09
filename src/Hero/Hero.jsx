@@ -3,8 +3,6 @@ import React from "react";
 function Hero (props) {
   const { profession, avatar, social, technologies } = props;
 
-  console.log(technologies);
-
   return(
     <section id="hero" className="hero">
       <h1>{profession}</h1>

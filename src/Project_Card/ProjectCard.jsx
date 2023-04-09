@@ -10,6 +10,13 @@ function ProjectCard (props) {
     technologies,
   } = props;
 
+  document.querySelectorAll("*").forEach(el => {
+    const { offsetWidth } = document.documentElement;
+    if (el.offsetWidth > offsetWidth) {
+      console.log(el);
+    }
+  });
+
   return(
     <article key={name} className="project_container">
       <div className="container_imgs">

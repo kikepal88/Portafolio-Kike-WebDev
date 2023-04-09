@@ -51,6 +51,9 @@
             width: 100%;
             text-align: center;
           }
+          a:hover {
+            @include button_mobile_hover;
+          }
         }
       }
     }

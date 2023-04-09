@@ -34,7 +34,7 @@ function Education(props) {
       <div className="education_henry">
         <div className="henry_img">
           <article className="img_logo-henry">
-            <img src={Henry.url_logo} alt="Logo Hnery"/>
+            <img src={Henry.url_logo} alt="Logo Henry"/>
           </article>
           <article className="img_cert-henry">
             <img src={Henry.url_certificate} alt="Certificado"/>
@@ -51,7 +51,7 @@ function Education(props) {
           </article>
         </div>
         <div className="platzi_button">
-          <button>VER PERFIL DE PLATZI</button>
+        <a href="https://platzi.com/p/kikepal88/" target="_blank" rel="noreferrer">VER PERFIL DE PLATZI</a>
         </div>
       </div>
       <div className="education_schools">

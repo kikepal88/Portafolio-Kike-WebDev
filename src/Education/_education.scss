@@ -1,27 +1,46 @@
 .education {
   @include description_section;
+  &_henry {
+    width: 100%;
+    margin-block-end: 20px;
+    .henry_img {
+      width: 100%;
+      .img_logo-henry {
+        width: 100px;
+        margin: 0 auto 10px;
+      }
+      .img_cert-henry {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+    }
+  }
   &_platzi {
     width: 100%;
-    height: 46px;
-    margin-block-end: 20px;
-    @include flex;
+    margin: 0 auto 25px;
     .platzi_icon {
-      width: 100px;
-      height: 30px;
+      width: 120px;
+      height: 40px;
+      margin: 0 auto 5px;
       @include flex;
       .icon_logo {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
       }
       .icon_name {
-        width: 62px;
-        height: 30px;
+        width: 80px;
+        height: 40px;
       }
     }
     .platzi_button {
+      margin-block-start: 15px;
       text-align: center;
-      button {
+      a {
         @include button_mobile;
+      }
+      a:hover {
+        @include button_mobile_hover;
       }
     }
   }
@@ -36,9 +55,9 @@
       .container_header {
         width: 100%;
         height: auto;
+        margin-block-end: 10px;
         padding-block: 5px;
         background-color: $Color-secundario;
-        border: 3px solid $Color-complemento2;
         border-radius: 10px;
         @include flex;
         justify-content: flex-start;

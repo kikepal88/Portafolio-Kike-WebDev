@@ -9,8 +9,13 @@
     "avatar": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Avatar-removebg.png?alt=media&token=f13b9855-eb9e-4407-9298-4f5bc72a8590",
     "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/KIKE%20PALACIOS.svg?alt=media&token=b69e003c-2617-4771-9238-2aca09f6199d",
     "ProfileText": "Experiencia en el Desarrollo Web a través del aprendizaje y la ejecución de proyectos tanto de forma individual como colaborativa, he diseñado y maquetado interfaces completamente responsivas, creado páginas y aplicaciones web interactivas para los usuarios, desarrollado servidores para el consumo de APIs y BD. Poseo background técnico en ingeniería civil donde he apoyado, coordinado y liderado equipos de trabajo en diferentes proyectos, solucionando conflictos.",
-    "EducationText": "Por medio de la plataforma Platzi estoy en constante aprendizaje en Desarrollo Web lo cual se complementa con el Bootcamp de Henry el cual completé como Full Stack Developer",
+    "EducationText": "Me encuentro en constante aprendizaje en Desarrollo Web por medio de la plataforma Platzi, la cual complementé con el Bootcamp de Henry para convertirme en un Full Stack Web Developer.",
     "ProjectsText": "Páginas y aplicaciones web con interfaces que se adaptan a cualquier dispositivo, interactivas y con persistencia de datos por medio de servidores para implementación de solicitudes CRUD del lado del cliente en las mismas.",
+    "Henry": {
+      "name": "Henry",
+      "url_logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoHenry.png?alt=media&token=3989a42d-0e3d-4175-a738-07139cf775a4",
+      "url_certificate": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Diploma.PNG?alt=media&token=7ab651a3-0970-47e6-8167-6861975ffd08"
+    },
     "Schools": [
       {
         "name": "Desarrollo Web",

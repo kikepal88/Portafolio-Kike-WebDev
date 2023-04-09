@@ -39,6 +39,7 @@ function App() {
         </Projects>
         <Education
           EducationText={data.EducationText}
+          Henry={data.Henry}
           Schools={data.Schools}
         >
         </Education>

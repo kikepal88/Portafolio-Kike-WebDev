@@ -7,8 +7,8 @@ function activeShowList (key1, key2, key3) {
 }
 
 function showCoursesList (e) {
+  e.preventDefault();
   const target = e.target.id;
-  console.log(target);
   if (target.includes("Web")) {
     activeShowList(`header_Web`, `arrow_Web`, `courses_Web`);
   } else if (target.includes("Eng")) {
@@ -19,7 +19,7 @@ function showCoursesList (e) {
 }
 
 function Education(props) {
-  const { EducationText, Schools } = props;
+  const { EducationText, Henry, Schools } = props;
   const certDesWeb = Schools && Schools[0].certificates;
   const certEnglish = Schools && Schools[1].certificates;
   const certDesign = Schools && Schools[2].certificates;
@@ -31,14 +31,24 @@ function Education(props) {
         <h2>Educación</h2>
         <p>{EducationText}</p>
       </div>
+      <div className="education_henry">
+        <div className="henry_img">
+          <article className="img_logo-henry">
+            <img src={Henry.url_logo} alt="Logo Hnery"/>
+          </article>
+          <article className="img_cert-henry">
+            <img src={Henry.url_certificate} alt="Certificado"/>
+          </article>
+        </div>
+      </div>
       <div className="education_platzi">
         <div className="platzi_icon">
-          <div className="icon_logo">
+          <article className="icon_logo">
             <img src="https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/isotipoPlatzi.png?alt=media&token=435a33c6-0d08-4f20-abe8-bb0e9af3cfe7" alt="Logo Platzi"/>
-          </div>
-          <div className="icon_name">
+          </article>
+          <article className="icon_name">
             <img src="https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/logotipo-platzi.png?alt=media&token=981226a5-a15d-4c7b-aa51-e9eef1dda0e0" alt="Platzi"/>
-          </div>
+          </article>
         </div>
         <div className="platzi_button">
           <button>VER PERFIL DE PLATZI</button>
@@ -61,11 +71,11 @@ function Education(props) {
                     className="container_header"
                   >
                     <div className="header_description">
-                      <h3
+                      <h4
                         id={`h3_${key}`}
                       >
                         {name}
-                      </h3>
+                      </h4>
                       <p
                         id={`p_${key}`}
                       >Cursos: {certificates.length}</p>

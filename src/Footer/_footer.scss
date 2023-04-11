@@ -29,3 +29,28 @@ footer {
     }
   }
 }
+
+@media screen and (min-width: 767px) {
+  footer {
+    .footer {
+      @include flex-wrap-center;
+      &_logo {
+        margin: 10px 20px;
+      }
+      &_social {
+        margin: 10px 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  footer {
+    margin-block-start: 40px;
+    padding: 0;
+    .footer {
+      @include flex-wrap-center;
+      justify-content: space-between;
+    }
+  }
+}

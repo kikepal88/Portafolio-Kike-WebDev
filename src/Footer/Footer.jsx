@@ -26,8 +26,10 @@ function Footer (props) {
               })
           }
         </div>
-        <p>©Copyright todos los derechos reservados
-  Construido con el 💙</p>
+        <div className="footer_copy">
+          <p>©Copyright todos los derechos reservados.</p>
+          <p>Diseñado y construido con el 💙</p>
+        </div>
       </section>
     </footer>
   );

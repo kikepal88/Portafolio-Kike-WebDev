@@ -34,10 +34,10 @@ function Education(props) {
       <div className="education_henry">
         <div className="henry_img">
           <article className="img_logo-henry">
-            <img src={Henry.url_logo} alt="Logo Henry"/>
+            <img src={Henry?.url_logo} alt="Logo Henry"/>
           </article>
           <article className="img_cert-henry">
-            <img src={Henry.url_certificate} alt="Certificado"/>
+            <img src={Henry?.url_certificate} alt="Certificado"/>
           </article>
         </div>
       </div>

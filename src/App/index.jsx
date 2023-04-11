@@ -15,6 +15,10 @@ function App() {
     setData(myData.data);
   }, [data]);
 
+  // console.log(data);
+  // console.log(data.Henry);
+  // console.log(data.Henry?.url_logo);
+
   return (
     <React.Fragment>
       <Header

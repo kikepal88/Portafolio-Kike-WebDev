@@ -52,11 +52,11 @@
     .school_container {
       width: 100%;
       height: auto;
+      margin-block-end: 10px;
       .container_header {
         width: 100%;
         height: auto;
-        margin-block-end: 10px;
-        padding-block: 5px;
+        padding-block: 2px;
         background-color: $Color-secundario;
         border-radius: 10px;
         @include flex;
@@ -74,7 +74,7 @@
           background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/next_azulosc.svg?alt=media&token=3fb342b4-c936-4fab-b367-ad1d235510ba);
           background-position: center;
           background-repeat: no-repeat;
-          background-size: 20px 28px;
+          background-size: 15px 21px;
           rotate: 90deg;
         }
         .header_arrow.is-active {
@@ -111,7 +111,7 @@
   &_certificates {
     position: relative;
     width: 100%;
-    height: 333px;
+    height: 370px;
     padding: 10px;
     border: 2px solid $Color-complemento2;
     border-radius: 10px;
@@ -121,14 +121,14 @@
     .certificates_container {
       display: grid;
       grid-auto-flow: column;
-      grid-auto-columns: 195px;
-      grid-template-rows: repeat(2, 150px);
+      grid-auto-columns: 220px;
+      grid-template-rows: repeat(2, 169px);
       column-gap: 10px;
       row-gap: 10px;
-      animation: scrolling 120s linear infinite;
+      animation: scrolling 20s linear infinite;
       .certificates_image {
-        width: 195px;
-        height: 150px;
+        width: 220px;
+        height: 169px;
       }
     }
   }
@@ -139,11 +139,24 @@
     margin-inline-start: 0%;
   }
   25% {
-    margin-inline-start: -900%;
+    margin-inline-start: -3150px;
   }
-  50%{margin-inline-start: -1800%;}
+  50%{
+    margin-inline-start: -6300px;
+  }
   75% {
-    margin-inline-start: -900%;
+    margin-inline-start: -3150px;
   }
-  100%{margin-inline-start: 0%;}
+  100%{
+    margin-inline-start: 0%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .education {
+    &_certificates {
+      max-width: 440px;
+      margin-inline: auto;
+    }
+  }
 }

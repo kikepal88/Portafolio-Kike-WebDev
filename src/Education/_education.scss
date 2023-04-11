@@ -234,13 +234,13 @@
       margin-inline-start: 0%;
     }
     25% {
-      margin-inline-start: -3200px;
+      margin-inline-start: -3250px;
     }
     50%{
-      margin-inline-start: -6400px;
+      margin-inline-start: -6550px;
     }
     75% {
-      margin-inline-start: -3200px;
+      margin-inline-start: -3250px;
     }
     100%{
       margin-inline-start: 0%;
@@ -255,21 +255,22 @@
     justify-content: space-between;
     &_henry {
       width: 30%;
+      margin-block-start: 20px;
     }
     &_platzi {
-      top: 125px;
+      top: 145px;
       left: calc(34%);
       width: 30%;
     }
     &_schools {
       position: absolute;
-      top: 230px;
+      top: 250px;
       left: calc(34%);
       width: 30%;
     }
     &_certificates {
       position: absolute;
-      top: 110px;
+      top: 120px;
       left: calc(66%);
       width: 30%;
     }

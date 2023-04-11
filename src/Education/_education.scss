@@ -91,8 +91,7 @@
       height: auto;
       max-height: 375px;
       padding-inline: 5px;
-      background-color: $Color-primario;
-      border: 2px solid $Color-complemento2;
+      border: 2px solid $Color-secundario;
       border-block-start: none;
       border-radius: 0 0 10px 10px;
       overflow-x: scroll;
@@ -113,9 +112,9 @@
     width: 100%;
     height: 370px;
     padding: 10px;
-    border: 2px solid $Color-complemento2;
+    border: 2px solid $Color-secundario;
     border-radius: 10px;
-    background-color: $Color-primario;
+    box-shadow: 2px 2px 10px 1px $Color-secundario;
     overflow: hidden;
     overflow-x: scroll;
     .certificates_container {
@@ -125,7 +124,7 @@
       grid-template-rows: repeat(2, 169px);
       column-gap: 10px;
       row-gap: 10px;
-      animation: scrolling 20s linear infinite;
+      animation: scrolling 200s linear infinite;
       .certificates_image {
         width: 220px;
         height: 169px;
@@ -154,9 +153,128 @@
 
 @media screen and (min-width: 767px) {
   .education {
+    @include flex-wrap-center;
+    &_henry {
+      .henry_img {
+        .img_logo-henry {
+          width: 120px;
+        }
+        .img_cert-henry {
+          max-width: 500px;
+        }
+      }
+    }
+    &_platzi {
+      width: 30%;
+    }
+    &_schools {
+      width: 65%;
+      margin-block-end: 0;
+      .container_courses {
+        max-height: 300px;
+      }
+    }
     &_certificates {
-      max-width: 440px;
-      margin-inline: auto;
+      margin-block-start: 5px;
+      .certificates_container {
+        animation: scrolling 130s linear infinite;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .education {
+    &_schools {
+      .container_courses {
+        max-height: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .education {
+    position: relative;
+    @include flex-wrap-center;
+    justify-content: space-between;
+    &_henry {
+      width: 48%;
+    }
+    &_platzi {
+      position: absolute;
+      top: 125px;
+      left: calc(50%);
+      width: 48%;
+    }
+    &_schools {
+      position: absolute;
+      top: 230px;
+      left: calc(54%);
+      width: 43%;
+      .container_courses {
+        max-height: 270px;
+      }
+      .container_courses::-webkit-scrollbar {
+        width: 6px;
+      }
+      .container_courses::-webkit-scrollbar-thumb {
+        border-radius: 3px;
+        background: $Color-secundario;
+      }
+    }
+    &_certificates {
+      width: 53%;
+      margin-block-start: 0;
+    }
+  }
+
+  @keyframes scrolling {
+    from {
+      margin-inline-start: 0%;
+    }
+    25% {
+      margin-inline-start: -3200px;
+    }
+    50%{
+      margin-inline-start: -6400px;
+    }
+    75% {
+      margin-inline-start: -3200px;
+    }
+    100%{
+      margin-inline-start: 0%;
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .education {
+    position: relative;
+    @include flex-wrap-center;
+    justify-content: space-between;
+    &_henry {
+      width: 30%;
+    }
+    &_platzi {
+      top: 125px;
+      left: calc(34%);
+      width: 30%;
+    }
+    &_schools {
+      position: absolute;
+      top: 230px;
+      left: calc(34%);
+      width: 30%;
+    }
+    &_certificates {
+      position: absolute;
+      top: 110px;
+      left: calc(66%);
+      width: 30%;
+    }
+    &_certificates::-webkit-scrollbar {
+      display: none;
     }
   }
 }

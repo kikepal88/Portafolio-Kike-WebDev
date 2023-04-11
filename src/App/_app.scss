@@ -51,6 +51,14 @@ img {
   object-fit: cover;
 }
 
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: $Color-secundario;
+}
+
 @media screen and (min-width: 767px) {
   section {
     padding: 15px 30px;

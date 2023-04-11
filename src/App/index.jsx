@@ -6,6 +6,7 @@ import Hero from '../Hero/Hero';
 import Education from '../Education/Education';
 import Projects from '../Projects/Projects';
 import myData from '../data/data.json';
+import Footer from '../Footer/Footer';
 
 function App() {
 
@@ -14,10 +15,6 @@ function App() {
   React.useEffect(() => {
     setData(myData.data);
   }, [data]);
-
-  // console.log(data);
-  // console.log(data.Henry);
-  // console.log(data.Henry?.url_logo);
 
   return (
     <React.Fragment>
@@ -48,6 +45,10 @@ function App() {
         >
         </Education>
       </Main>
+      <Footer
+        logo={data.logo}
+        social={data.social}
+      />
     </React.Fragment>
   );
 }

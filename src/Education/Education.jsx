@@ -53,58 +53,58 @@ function Education(props) {
         <div className="platzi_button">
         <a href="https://platzi.com/p/kikepal88/" target="_blank" rel="noreferrer">VER PERFIL DE PLATZI</a>
         </div>
-      </div>
-      <div className="education_schools">
-        {
-          Schools &&
-            Schools.map((School) => {
-              const { name, key, certificates } = School;
-              return(
-                <div
-                  id={`school_${key}`}
-                  className="school_container"
-                  key={name}
-                  onClick={(e) => showCoursesList(e)}
-                >
+        <div className="platzi_schools">
+          {
+            Schools &&
+              Schools.map((School) => {
+                const { name, key, certificates } = School;
+                return(
                   <div
-                    id={`header_${key}`}
-                    className="container_header"
+                    id={`school_${key}`}
+                    className="school_container"
+                    key={name}
+                    onClick={(e) => showCoursesList(e)}
                   >
-                    <div className="header_description">
-                      <h4
-                        id={`h3_${key}`}
+                    <div
+                      id={`header_${key}`}
+                      className="container_header"
+                    >
+                      <div className="header_description">
+                        <h4
+                          id={`h3_${key}`}
+                        >
+                          {name}
+                        </h4>
+                        <p
+                          id={`p_${key}`}
+                        >Cursos: {certificates.length}</p>
+                      </div>
+                      <div
+                        id={`arrow_${key}`}
+                        className="header_arrow"
                       >
-                        {name}
-                      </h4>
-                      <p
-                        id={`p_${key}`}
-                      >Cursos: {certificates.length}</p>
+                      </div>
                     </div>
                     <div
-                      id={`arrow_${key}`}
-                      className="header_arrow"
-                    >
+                      id={`courses_${key}`}
+                      className="container_courses">
+                      {
+                        certificates &&
+                          certificates.map((certificate) => {
+                            const { name } = certificate;
+                            return(
+                              <div className="courses_name" key={name}>
+                                <p>{name}</p>
+                              </div>
+                            );
+                          })
+                      }
                     </div>
                   </div>
-                  <div
-                    id={`courses_${key}`}
-                    className="container_courses">
-                    {
-                      certificates &&
-                        certificates.map((certificate) => {
-                          const { name } = certificate;
-                          return(
-                            <div className="courses_name" key={name}>
-                              <p>{name}</p>
-                            </div>
-                          );
-                        })
-                    }
-                  </div>
-                </div>
-              );
-            })
-          }
+                );
+              })
+            }
+        </div>
       </div>
       <div className="education_certificates">
           <div className="certificates_container">

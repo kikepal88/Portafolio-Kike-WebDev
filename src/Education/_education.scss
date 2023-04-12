@@ -43,68 +43,69 @@
         @include button_mobile_hover;
       }
     }
-  }
-  &_schools {
-    width: 100%;
-    height: auto;
-    margin-block-end: 20px;
-    text-align: center;
-    .school_container {
+    .platzi_schools {
       width: 100%;
       height: auto;
-      margin-block-end: 10px;
-      .container_header {
+      margin-block: 20px;
+      padding-block-start: 5px;
+      text-align: center;
+      .school_container {
         width: 100%;
         height: auto;
-        padding-block: 2px;
-        background-color: $Color-secundario;
-        border-radius: 10px;
-        @include flex;
-        justify-content: flex-start;
-        .header_description {
-          width: 88%;
-          padding-inline-start: 8%;
-          h3 {
-            color: $Color-complemento;
+        margin-block-end: 10px;
+        .container_header {
+          width: 100%;
+          height: auto;
+          padding-block: 2px;
+          background-color: $Color-secundario;
+          border-radius: 10px;
+          @include flex;
+          justify-content: flex-start;
+          .header_description {
+            width: 88%;
+            padding-inline-start: 8%;
+            h3 {
+              color: $Color-complemento;
+            }
+          }
+          .header_arrow {
+            width: 12%;
+            height: 51px;
+            background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/next_azulosc.svg?alt=media&token=3fb342b4-c936-4fab-b367-ad1d235510ba);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 15px 21px;
+            rotate: 90deg;
+          }
+          .header_arrow.is-active {
+            rotate: -90deg;
           }
         }
-        .header_arrow {
-          width: 12%;
-          height: 51px;
-          background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/next_azulosc.svg?alt=media&token=3fb342b4-c936-4fab-b367-ad1d235510ba);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: 15px 21px;
-          rotate: 90deg;
-        }
-        .header_arrow.is-active {
-          rotate: -90deg;
+        .container_header.is-active {
+          border-radius: 10px 10px 0 0;
         }
       }
-      .container_header.is-active {
-        border-radius: 10px 10px 0 0;
-      }
-    }
-    .container_courses {
-      display: none;
-      width: 100%;
-      height: auto;
-      max-height: 375px;
-      padding-inline: 5px;
-      border: 2px solid $Color-secundario;
-      border-block-start: none;
-      border-radius: 0 0 10px 10px;
-      overflow-x: scroll;
-      .courses_name {
-        width: 95%;
+      .container_courses {
+        display: none;
+        width: 100%;
         height: auto;
-        margin: 0 auto;
-        padding: 7px 0;
-        border-block-end: 1px solid $Color-claro2;
+        max-height: 375px;
+        padding-inline: 5px;
+        border: 2px solid $Color-secundario;
+        border-block-start: none;
+        border-radius: 0 0 10px 10px;
+        overflow-x: scroll;
+        .courses_name {
+          width: 95%;
+          height: auto;
+          margin: 0 auto;
+          padding: 7px 0;
+          border-block-end: 1px solid $Color-claro2;
+        }
       }
-    }
-    .container_courses.is-active {
-      display: block;
+      .container_courses.is-active {
+        display: block;
+      }
     }
   }
   &_certificates {
@@ -154,28 +155,25 @@
 @media screen and (min-width: 767px) {
   .education {
     @include flex-wrap-center;
+    align-items: self-start;
     &_henry {
+      width: 48%;
       .henry_img {
         .img_logo-henry {
           width: 120px;
         }
-        .img_cert-henry {
-          max-width: 500px;
-        }
       }
     }
     &_platzi {
-      width: 30%;
-    }
-    &_schools {
-      width: 65%;
-      margin-block-end: 0;
-      .container_courses {
-        max-height: 300px;
+      width: 48%;
+      .platzi_schools {
+        margin-block-end: 0;
+        .container_courses {
+          max-height: 200px;
+        }
       }
     }
     &_certificates {
-      margin-block-start: 5px;
       .certificates_container {
         animation: scrolling 130s linear infinite;
       }
@@ -195,37 +193,23 @@
 
 @media screen and (min-width: 1024px) {
   .education {
-    position: relative;
-    @include flex-wrap-center;
-    justify-content: space-between;
     &_henry {
-      width: 48%;
+      width: 49%;
     }
     &_platzi {
-      position: absolute;
-      top: 125px;
-      left: calc(50%);
-      width: 48%;
-    }
-    &_schools {
-      position: absolute;
-      top: 230px;
-      left: calc(54%);
-      width: 43%;
-      .container_courses {
-        max-height: 270px;
-      }
-      .container_courses::-webkit-scrollbar {
-        width: 6px;
-      }
-      .container_courses::-webkit-scrollbar-thumb {
-        border-radius: 3px;
-        background: $Color-secundario;
+      width: 49%;
+      .platzi_schools {
+        .container_courses::-webkit-scrollbar {
+          width: 6px;
+        }
+        .container_courses::-webkit-scrollbar-thumb {
+          border-radius: 3px;
+          background: $Color-secundario;
+        }
       }
     }
-    &_certificates {
-      width: 53%;
-      margin-block-start: 0;
+    &_certificates::-webkit-scrollbar {
+      display: none;
     }
   }
 
@@ -250,32 +234,14 @@
 
 @media screen and (min-width: 1240px) {
   .education {
-    position: relative;
-    @include flex-wrap-center;
-    justify-content: space-between;
     &_henry {
-      width: 30%;
-      margin-block-start: 20px;
+      width: 34%;
     }
     &_platzi {
-      top: 145px;
-      left: calc(34%);
-      width: 30%;
-    }
-    &_schools {
-      position: absolute;
-      top: 250px;
-      left: calc(34%);
-      width: 30%;
+      width: 34%;
     }
     &_certificates {
-      position: absolute;
-      top: 110px;
-      left: calc(66%);
-      width: 30%;
-    }
-    &_certificates::-webkit-scrollbar {
-      display: none;
+      width: 29%;
     }
   }
 }

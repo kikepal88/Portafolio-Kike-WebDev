@@ -1,8 +1,8 @@
 .hero {
-  padding-block-start: 20px;
+  padding-block-start: 30px;
   background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg.png?alt=media&token=f8b61de7-2c79-469b-9083-6a1ffc1c4ca2);
   background-repeat: no-repeat;
-  background-position: center 80px;
+  background-position: center 90px;
   background-size: 250px;
   &_avatar {
     width: 190px;
@@ -53,7 +53,7 @@
   }
   &_buttonCV {
     height: 40px;
-    margin: 30px auto 20px;
+    margin: 40px auto 20px;
     text-align: center;
     a {
       @include button_mobile;
@@ -239,11 +239,12 @@
 
 @media screen and (min-width: 1240px) {
   .hero {
-    min-height: 420px;
-    background-position: calc(50% + 335px) 90px;
+    min-height: 440px;
+    padding-block-start: 40px;
+    background-position: calc(50% + 335px) 100px;
     background-size: 310px;
     &_avatar {
-      top: 100px;
+      top: 110px;
       left: calc(50% + 210px);
       width: 250px;
       height: 250px;
@@ -260,7 +261,7 @@
       }
     }
     &_social {
-      top: 375px;
+      top: 385px;
       left: calc(50% + 245px);
     }
     &_buttonCV {

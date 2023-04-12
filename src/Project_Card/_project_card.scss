@@ -36,9 +36,6 @@
               width: 30px;
               margin: 0 auto;
             }
-            p {
-              font-size: $p-size-p2;
-            }
           }
         }
         .description_buttons {
@@ -75,18 +72,65 @@
   .projects {
     &_project {
       .project_container {
-        max-width: 335px;
+        max-width: 750px;
         margin-block-end: 30px;
+        margin-inline: auto;
+        @include flex;
+        .container_imgs {
+          width: 52%;
+          border-radius: 10px 0 0 10px;
+          .imgs_desktop {
+            border-radius: 10px 0 0 10px;
+            img {
+              border-radius: 10px 0 0 10px;
+            }
+          }
+        }
+        .container_description {
+          width: 48%;
+          padding: 20px;
+          h3 {
+            margin-block-end: 10px;
+          }
+          .description_technologies {
+            margin-block-start: 15px;
+          }
+          .description_buttons {
+            margin-block-start: 15px;
+          }
+        }
       }
     }
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1240px) {
   .projects {
     &_project {
       .project_container {
-        max-width: 350px;
+        max-width: 900px;
+        .container_imgs {
+          width: 51%;
+        }
+        .container_description {
+          width: 49%;
+          padding: 25px;
+          h3 {
+            margin-block-end: 15px;
+          }
+          .description_technologies {
+            margin-block-start: 15px;
+            .technologies_container {
+              width: 50px;
+              .technologies_icon {
+                width: 40px;
+              }
+            }
+          }
+          .description_buttons {
+            margin-block-start: 15px;
+          }
+        }
       }
     }
   }

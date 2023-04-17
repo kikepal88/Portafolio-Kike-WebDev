@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Portafolio-Kike-WebDev/static/css/main.80ff4c66.css",
-    "main.js": "/Portafolio-Kike-WebDev/static/js/main.4e61c2f3.js",
+    "main.css": "/Portafolio-Kike-WebDev/static/css/main.ba96247a.css",
+    "main.js": "/Portafolio-Kike-WebDev/static/js/main.4e9bccb5.js",
     "index.html": "/Portafolio-Kike-WebDev/index.html",
-    "main.80ff4c66.css.map": "/Portafolio-Kike-WebDev/static/css/main.80ff4c66.css.map",
-    "main.4e61c2f3.js.map": "/Portafolio-Kike-WebDev/static/js/main.4e61c2f3.js.map"
+    "main.ba96247a.css.map": "/Portafolio-Kike-WebDev/static/css/main.ba96247a.css.map",
+    "main.4e9bccb5.js.map": "/Portafolio-Kike-WebDev/static/js/main.4e9bccb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.80ff4c66.css",
-    "static/js/main.4e61c2f3.js"
+    "static/css/main.ba96247a.css",
+    "static/js/main.4e9bccb5.js"
   ]
 }

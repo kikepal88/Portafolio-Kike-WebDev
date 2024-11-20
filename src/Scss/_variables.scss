@@ -7,6 +7,7 @@ $Color-variante: #e28e00;
 $Color-complemento: #000780;
 $Color-complemento2: #7898CA;
 $Color-claro: #ffffff;
+$Color-claro-transp: #ffffff4e;
 $Color-claro2: #E3D9D9;
 $Fuente1: "Roboto", sans-serif;
 $p-size-p2: 1.2rem;
@@ -39,6 +40,13 @@ $h1-lh-size-g: 4.147rem;
   flex-wrap: nowrap;
 }
 
+@mixin flex-wrap-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 @mixin flex-wrap-center {
   display: flex;
   justify-content: center;
@@ -63,7 +71,7 @@ $h1-lh-size-g: 4.147rem;
 @mixin button_mobile {
   display: inline;
   width: auto;
-  height: 40px;
+  height: 50px;
   padding: 10px 12px;
   color: $Color-claro;
   font-size: 1.8rem;

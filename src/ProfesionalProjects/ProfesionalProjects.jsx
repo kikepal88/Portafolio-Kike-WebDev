@@ -1,19 +1,19 @@
 import React from "react";
 import ProjectCard from "../Project_Card/ProjectCard.jsx";
 
-function Projects (props) {
-  const { ProjectsText, Projects } = props;
+function ProfesionalProjects (props) {
+  const { ProfesionalProjectsText, ProfesionalProjects } = props;
 
   return(
     <section id="projects" className="projects">
       <div className="projects_description">
-        <h2>Proyectos</h2>
-        <p>{ProjectsText}</p>
+        <h2>Proyectos Profesionales</h2>
+        <p>{ProfesionalProjectsText}</p>
       </div>
       <div className="projects_project">
         {
-          Projects &&
-            Projects.map((project) => {
+          ProfesionalProjects &&
+            ProfesionalProjects.map((project) => {
               const {
                 name,
                 description,
@@ -40,4 +40,4 @@ function Projects (props) {
   );
 }
 
-export default Projects;
+export default ProfesionalProjects;

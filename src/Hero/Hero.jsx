@@ -63,7 +63,7 @@ function Hero (props) {
         </div>
       </div>
       <div className="hero_buttonCV">
-        <a href="https://drive.google.com/file/d/1tiUQGtTNJen2v-ODZdEgi8cq4531RWbC/view?usp=sharing" target="_blank" rel="noreferrer">DESCARGA MI CV</a>
+        <a href="https://drive.google.com/file/d/1HXUhkTbKD-b-6KTwb8kbdaHN6JiIMT78/view" target="_blank" rel="noreferrer">DESCARGA MI CV</a>
       </div>
       <div className="hero_social">
         {

@@ -15,31 +15,24 @@ function showCoursesList (e) {
     activeShowList(`header_Eng`, `arrow_Eng`, `courses_Eng`);
   } else if (target.includes("Des")) {
     activeShowList(`header_Des`, `arrow_Des`, `courses_Des`);
+  }  else if (target.includes("Pyt")) {
+    activeShowList(`header_Pyt`, `arrow_Pyt`, `courses_Pyt`);
   }
 }
 
 function Education(props) {
-  const { EducationText, Henry, Schools } = props;
+  const { EducationText, Henry, Smart, Schools } = props;
   const certDesWeb = Schools && Schools[0].certificates;
-  const certEnglish = Schools && Schools[1].certificates;
-  const certDesign = Schools && Schools[2].certificates;
-  const certs = certDesWeb && certDesWeb.concat(certEnglish, certDesign);
+  const certBackPyt = Schools && Schools[1].certificates;
+  const certEnglish = Schools && Schools[2].certificates;
+  const certDesign = Schools && Schools[3].certificates;
+  const certs = certDesWeb && certDesWeb.concat(certBackPyt, certEnglish, certDesign);
 
   return(
     <section id="education" className="education">
       <div className="education_description">
         <h2>Educación</h2>
         <p>{EducationText}</p>
-      </div>
-      <div className="education_henry">
-        <div className="henry_img">
-          <article className="img_logo-henry">
-            <img src={Henry?.url_logo} alt="Logo Henry"/>
-          </article>
-          <article className="img_cert-henry">
-            <img src={Henry?.url_certificate} alt="Certificado"/>
-          </article>
-        </div>
       </div>
       <div className="education_platzi">
         <div className="platzi_icon">
@@ -120,6 +113,26 @@ function Education(props) {
                 })
             }
           </div>
+      </div>
+      <div className="education_henry">
+        <div className="henry_img">
+          <article className="img_logo-henry">
+            <img src={Smart?.url_logo} alt="Logo Henry"/>
+          </article>
+          <article className="img_cert-henry">
+            <img src={Smart?.url_certificate} alt="Certificado"/>
+          </article>
+        </div>
+      </div>
+      <div className="education_henry">
+        <div className="henry_img">
+          <article className="img_logo-henry">
+            <img src={Henry?.url_logo} alt="Logo Henry"/>
+          </article>
+          <article className="img_cert-henry">
+            <img src={Henry?.url_certificate} alt="Certificado"/>
+          </article>
+        </div>
       </div>
     </section>
   );

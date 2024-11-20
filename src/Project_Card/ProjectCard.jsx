@@ -5,25 +5,25 @@ function ProjectCard (props) {
     name,
     description,
     img_desktop,
-    url_repo,
     url_demo,
     technologies,
   } = props;
 
-  document.querySelectorAll("*").forEach(el => {
-    const { offsetWidth } = document.documentElement;
-    if (el.offsetWidth > offsetWidth) {
-      console.log(el);
-    }
-  });
-
   return(
     <article key={name} className="project_container">
+      {
+      url_demo ?
       <div className="container_imgs">
         <div className="imgs_desktop">
           <img src={img_desktop} alt={`Desktop_${name}`}/>
         </div>
+      </div> :
+      <div className="container_imgs">
+        <div className="imgs_desktop">
+          <img src={img_desktop} alt={`Desktop_${name}`} className="img_profesional"/>
+        </div>
       </div>
+      }
       <div className="container_description">
         <h3>{name}</h3>
         <p>{description}</p>
@@ -42,9 +42,14 @@ function ProjectCard (props) {
               })
           }
         </div>
+        {
+        url_demo ?
         <div className="description_buttons">
           <a href={url_demo} target="_blank" rel="noreferrer">DEPLOY</a>
+        </div> :
+        <div>
         </div>
+        }
       </div>
     </article>
   );

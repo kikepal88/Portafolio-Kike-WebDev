@@ -8,13 +8,19 @@
     "phone": "3015417060",
     "avatar": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Avatar-removebg.png?alt=media&token=f13b9855-eb9e-4407-9298-4f5bc72a8590",
     "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/KIKE%20PALACIOS.svg?alt=media&token=b69e003c-2617-4771-9238-2aca09f6199d",
-    "ProfileText": "Experiencia previa en el Desarrollo Web a través del aprendizaje y la ejecución de proyectos tanto de forma individual como colaborativa, he diseñado y maquetado interfaces completamente responsivas, creado páginas y aplicaciones web interactivas para los usuarios, desarrollado servidores para el consumo de APIs y BD. Poseo un background técnico en ingeniería civil donde he apoyado, coordinado y liderado equipos de trabajo en diferentes proyectos.",
-    "EducationText": "Me encuentro en constante aprendizaje en Desarrollo Web por medio de la plataforma Platzi, la cual complementé con el Bootcamp de Henry para convertirme en un Full Stack Web Developer.",
-    "ProjectsText": "Páginas y aplicaciones web con interfaces que se adaptan a cualquier dispositivo, interactivas y con persistencia de datos por medio de servidores para implementación de solicitudes CRUD del lado del cliente en las mismas.",
+    "ProfileText": "Desarrollador Web con experiencia profesional en Frontend utilizando frameworks como React y VueJS, y en Backend con Python y FastAPI. He contribuido en proyectos colaborativos utilizando metodologías ágiles y GitFlow. Mi trabajo incluye la creación de aplicaciones web interactivas, desarrollo de APIs y la gestión de todo el flujo para conectar con las mismas. Me dedico al aprendizaje continuo y actualmente estoy ampliando mis conocimientos en conexiones con LLMs y prompting, así como en análisis y visualización de datos, áreas en las cuales ya estoy incursionando de forma profesional. Poseo un background técnico en ingeniería civil, donde coordiné y lideré equipos de trabajo en diversos proyectos durante 10 años. Esta experiencia me permitió desarrollar habilidades en la superación de obstáculos, resolución de conflictos y adaptación a nuevas tecnologías.",
+    "EducationText": "Me encuentro en constante aprendizaje, para mejorar mi perfil profesional:",
+    "ProjectsText": "",
+    "ProfesionalProjectsText": "Durante mi trabajo en Guane Emerging Technologies una compañía que ofrece soluciones basadas en la industria 4.0, impulsados por la inteligencia artificial, para potenciar la eficiencia, la agilidad y la automatización de tus operaciones empresariales. Trabaje en los siguientes proyectos:",
     "Henry": {
       "name": "Henry",
       "url_logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoHenry.png?alt=media&token=3989a42d-0e3d-4175-a738-07139cf775a4",
       "url_certificate": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Diploma.PNG?alt=media&token=7ab651a3-0970-47e6-8167-6861975ffd08"
+    },
+    "Smart": {
+      "name": "Academia Smart",
+      "url_logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/smart.webp?alt=media&token=db684f1e-d782-4da3-b697-8caa5e75069e",
+      "url_certificate": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/certificado_smart.PNG?alt=media&token=56f5b76f-0718-403e-a65e-1544960c55a1"
     },
     "Schools": [
       {
@@ -209,6 +215,32 @@
         ]
       },
       {
+        "name": "Backend con Python",
+        "key": "Pyt",
+        "certificates": [
+          {
+            "name": "Curso de Fundamentos de Python",
+            "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso_de_fundamentos_de_python.PNG?alt=media&token=cf48493c-9ed1-42f8-aa65-6dcc90313349",
+            "discipline": "Backend"
+          },
+          {
+            "name": "Curso de Python: Comprehensions, funciones y manejo de errores",
+            "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso_de_python_funciones_y_errores.PNG?alt=media&token=ddc18f33-eee5-4b24-92e2-5743c4fd6d0d",
+            "discipline": "Backend"
+          },
+          {
+            "name": "Curso de Python: Entornos virtuales y PIP",
+            "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso_de_python_entornos_virtuales_y_pip.PNG?alt=media&token=56b9de0d-bdcf-4cf0-8f54-e7fa17345c2f",
+            "discipline": "Backend"
+          },
+          {
+            "name": "Curso de FastAPI",
+            "url": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/curso_de_fastapi.PNG?alt=media&token=573097e6-9e2f-47a3-b4d8-7c8bdc3e8d61",
+            "discipline": "Backend"
+          }
+        ]
+      },
+      {
         "name": "Inglés",
         "key": "Eng",
         "certificates": [
@@ -331,42 +363,100 @@
         ]
       }
     ],
-    "Projects": [
+    "ProfesionalProjects": [
       {
-        "name": "Henry Games",
-        "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API externa.",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/HenryGames_IMG.png?alt=media&token=ea86f681-46eb-4b03-9b41-d1eb30be35e3",
-        "url_repo": "https://github.com/kikepal88/PI_Videogames_Deploy",
-        "url_demo": "https://pi-videogames-deploy-xi.vercel.app/",
+        "name": "Thori AI",
+        "description": "Maquetación y desarrollo del flujo de la lógica del lado del front para una suite de herramientas tecnológicas para todo el ecosistema energético.",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/ThoriAI.PNG?alt=media&token=40297362-88da-4e1d-8a6b-a618e7ff75b7",
+        "url_repo": "",
+        "url_demo": "",
+        "technologies": [
+          {
+            "name": "VueJS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/vue-dot-js.svg?alt=media&token=9cd1295a-dbb7-411b-b9c8-67336a51b786"
+          },
+          {
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          },
+          {
+            "name": "Sass",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sass.svg?alt=media&token=cd3f50c6-cbd4-45cc-b167-c6e98bc99396"
+          }
+        ]
+      },
+      {
+        "name": "My Visa AI",
+        "description": "Maquetación y desarrollo del flujo de la lógica y de la API de una herramienta tecnológica para evaluar y maximizar sus posibilidades de visa.",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MyVisaAI.PNG?alt=media&token=1d6e6d7f-2d0a-416e-bef5-7df22bdae2b7",
+        "url_repo": "",
+        "url_demo": "",
         "technologies": [
           {
             "name": "React",
             "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/react.svg?alt=media&token=86af7011-2848-41e7-ae2f-8105b8d171c0"
           },
           {
-            "name": "Redux",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/redux.svg?alt=media&token=492a657a-39e3-445a-a729-6aace9e5c21c"
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          },
+          {
+            "name": "CSS3",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+          },
+          {
+            "name": "Python",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/python.svg?alt=media&token=52281650-31ae-45e9-b82c-ac45a3df4b0a"
+          },
+          {
+            "name": "FastAPI",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/fastapi_icon-white.svg?alt=media&token=358aee5b-a8b4-4f2e-8cd6-3dd04e1ab69b"
+          }
+        ]
+      }
+    ],
+    "PersonalProjects": [
+      {
+        "name": "MiniTutorialesWebDev",
+        "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_IMG.png?alt=media&token=faf55b6d-2cb7-47b4-a34f-faff799caa4d",
+        "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",
+        "url_demo": "https://kikepal88.github.io/MiniTutorialesWebDev/",
+        "technologies": [
+          {
+            "name": "HTML",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
           },
           {
             "name": "CSS",
             "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
           },
           {
-            "name": "NodeJS",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Node.png?alt=media&token=a67e84fc-9b40-4786-a578-65c37ec706f6"
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          }
+        ]
+      },
+      {
+        "name": "Melifluo",
+        "description": "Construcción del FrontEnd en entorno colaborativo de página web completamente responsive para pre lanzamiento de un proyecto startup EdTech llamado Melifluo.",
+        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo_IMG.png?alt=media&token=96440b3d-664a-4262-affa-57886be7f1cf",
+        "url_repo": "https://github.com/kikepal88/Melifluo-Web",
+        "url_demo": "https://kikepal88.github.io/Melifluo-Web/",
+        "technologies": [
+          {
+            "name": "HTML",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
           },
           {
-            "name": "Express",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Express.png?alt=media&token=12518b3a-72da-4683-a0c1-4accc04130ed"
+            "name": "CSS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
           },
           {
-            "name": "Sequelize",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sequelize.svg?alt=media&token=a748b0f1-96d5-4ea2-b34a-92139585e370"
-          },
-          {
-            "name": "PostgreSQL",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
+            "name": "JavaScript",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
           }
         ]
       },
@@ -409,46 +499,40 @@
         ]
       },
       {
-        "name": "Melifluo",
-        "description": "Construcción del FrontEnd en entorno colaborativo de página web completamente responsive para pre lanzamiento de un proyecto startup EdTech llamado Melifluo.",
+        "name": "Henry Games",
+        "description": "Diseño y construcción FullStack de aplicación web responsive que funciona como librería de videojuegos, por medio del consumo de una API externa.",
         "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMelifluo.png?alt=media&token=ef385cb5-279a-48d1-82aa-ddf6ce06d71b",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Melifluo_IMG.png?alt=media&token=96440b3d-664a-4262-affa-57886be7f1cf",
-        "url_repo": "https://github.com/kikepal88/Melifluo-Web",
-        "url_demo": "https://kikepal88.github.io/Melifluo-Web/",
+        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/HenryGames_IMG.png?alt=media&token=ea86f681-46eb-4b03-9b41-d1eb30be35e3",
+        "url_repo": "https://github.com/kikepal88/PI_Videogames_Deploy",
+        "url_demo": "https://pi-videogames-deploy-xi.vercel.app/",
         "technologies": [
           {
-            "name": "HTML",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+            "name": "React",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/react.svg?alt=media&token=86af7011-2848-41e7-ae2f-8105b8d171c0"
+          },
+          {
+            "name": "Redux",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/redux.svg?alt=media&token=492a657a-39e3-445a-a729-6aace9e5c21c"
           },
           {
             "name": "CSS",
             "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
           },
           {
-            "name": "JavaScript",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
-          }
-        ]
-      },
-      {
-        "name": "MiniTutorialesWebDev",
-        "description": "Diseño y construcción Front de página web responsive con el objetivo apoyar a Desarrolladores Web a través de pequeños consejos sobre sus tecnologías base.",
-        "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoMTWD_blanco_peque%C3%B1o.png?alt=media&token=a2fd8246-ac5d-4dbf-b157-ee77e21d4907",
-        "img_desktop": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/MiniTutorialesWebDev_IMG.png?alt=media&token=faf55b6d-2cb7-47b4-a34f-faff799caa4d",
-        "url_repo": "https://github.com/kikepal88/MiniTutorialesWebDev",
-        "url_demo": "https://kikepal88.github.io/MiniTutorialesWebDev/",
-        "technologies": [
-          {
-            "name": "HTML",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+            "name": "NodeJS",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Node.png?alt=media&token=a67e84fc-9b40-4786-a578-65c37ec706f6"
           },
           {
-            "name": "CSS",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
+            "name": "Express",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Express.png?alt=media&token=12518b3a-72da-4683-a0c1-4accc04130ed"
           },
           {
-            "name": "JavaScript",
-            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+            "name": "Sequelize",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sequelize.svg?alt=media&token=a748b0f1-96d5-4ea2-b34a-92139585e370"
+          },
+          {
+            "name": "PostgreSQL",
+            "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
           }
         ]
       }
@@ -456,16 +540,8 @@
     "Technologies": {
       "frontend": [
         {
-          "name": "HTML5",
-          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
-        },
-        {
-          "name": "CSS3",
-          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
-        },
-        {
-          "name": "JavaScript",
-          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+          "name": "VueJS",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/vue-dot-js.svg?alt=media&token=9cd1295a-dbb7-411b-b9c8-67336a51b786"
         },
         {
           "name": "React",
@@ -476,15 +552,31 @@
           "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/redux.svg?alt=media&token=492a657a-39e3-445a-a729-6aace9e5c21c"
         },
         {
+          "name": "JavaScript",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/javascript.svg?alt=media&token=79fc4000-ddc8-437a-8bdc-f48b0e321f3c"
+        },
+        {
           "name": "Sass",
           "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sass.svg?alt=media&token=cd3f50c6-cbd4-45cc-b167-c6e98bc99396"
         },
         {
-          "name": "BootStrap",
-          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/bootstrap.svg?alt=media&token=40e268bf-7026-48e4-a738-d5397acb160e"
+          "name": "HTML5",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/html.svg?alt=media&token=7e0f50c6-e237-4bb4-aec9-a11303e3a904"
+        },
+        {
+          "name": "CSS3",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/css.svg?alt=media&token=5025a0a1-e6bd-41aa-a7a4-9571658384a2"
         }
       ],
       "backend": [
+        {
+          "name": "Python",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/python.svg?alt=media&token=52281650-31ae-45e9-b82c-ac45a3df4b0a"
+        },
+        {
+          "name": "FastAPI",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/fastapi_icon-white.svg?alt=media&token=358aee5b-a8b4-4f2e-8cd6-3dd04e1ab69b"
+        },
         {
           "name": "NodeJS",
           "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Node.png?alt=media&token=a67e84fc-9b40-4786-a578-65c37ec706f6"
@@ -492,17 +584,13 @@
         {
           "name": "Express",
           "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Express.png?alt=media&token=12518b3a-72da-4683-a0c1-4accc04130ed"
-        },
-        {
-          "name": "Sequelize",
-          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/sequelize.svg?alt=media&token=a748b0f1-96d5-4ea2-b34a-92139585e370"
-        },
-        {
-          "name": "PostgreSQL",
-          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
         }
       ],
       "others": [
+        {
+          "name": "PostgreSQL",
+          "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/elephant.png?alt=media&token=e4208cf6-97fe-434e-8ea5-80843c9c64bf"
+        },
         {
           "name": "Git",
           "logo": "https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/git.svg?alt=media&token=f7454f15-7643-474e-b5f3-e8ad117ba952"

@@ -1,0 +1,305 @@
+.hero {
+  padding-block-start: 30px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg.png?alt=media&token=f8b61de7-2c79-469b-9083-6a1ffc1c4ca2);
+  background-repeat: no-repeat;
+  background-position: center 90px;
+  background-size: 250px;
+  &_avatar {
+    width: 190px;
+    height: 190px;
+    margin: 20px auto;
+  }
+  &_technologies {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179), url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179);
+    background-repeat: no-repeat;
+    background-position: -50% -10%, -10% 45%, 110% 55%, -10% 110%;
+    background-size: 200px, 175px, 125px, 100px;
+    animation: AnimateBGTech 30s linear infinite;
+    h4 {
+      margin-block-end: 5px;
+    }
+    .front_container, .back_container, .other_container {
+      @include flex-wrap-center;
+      max-width: 380px;
+      width: 100%;
+      height: auto;
+      margin-block-end: 10px;
+      padding: 10px 5px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 6px 1px $Color-secundario;
+      article {
+        @include flex-wrap-center;
+        @include article-tech-icon;
+        width: 25%;
+        p {
+          color: $Color-claro;
+          font-size: 1rem;
+          font-weight: bold;
+          mix-blend-mode: lighten;
+        }
+      }
+    }
+  }
+  &_social {
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    @include flex;
+    .social_icon {
+      width: 35px;
+      height: 35px;
+      filter: drop-shadow(1px 1px 5px $Color-secundario);
+    }
+    .social_icon:hover {
+      filter: drop-shadow(1px 1px 5px $Color-complemento2);
+    }
+  }
+  &_buttonCV {
+    height: 40px;
+    margin: 40px auto 20px;
+    text-align: center;
+    a {
+      @include button_mobile;
+    }
+    a:hover {
+      @include button_mobile_hover;
+    }
+  }
+}
+
+@keyframes AnimateBGTech {
+  0% {
+    background-position: 50% -5%, -5% 45%, 105% 55%, -5% 105%;
+    background-size: 200px, 175px, 125px, 100px;
+  }
+  20% {
+    background-position: 105% -5%, -5% -5%, 50% 55%, 50% 105%;
+    background-size: 230px, 125px, 170px, 130px;
+  }
+  40% {
+    background-position: 105% 45%, 50% 22.5%, -5% 55%, 105% 105%;
+    background-size: 170px, 180px, 110px, 160px;
+  }
+  60% {
+    background-position: 50% 22.5%, 105% 45%, -5% 105%, 50% 82.5%;
+    background-size: 110px, 120px, 190px, 210px;
+  }
+  80% {
+    background-position: -5% -5%, 50% 45%, 50% 82.5%, -5% 55%;
+    background-size: 150px, 170px, 140px, 190px;
+  }
+  100% {
+    background-position: 50% -5%, -5% 45%, 105% 55%, -5% 105%;
+    background-size: 200px, 175px, 125px, 100px;
+  }
+}
+
+@media screen and (min-width: 424px) {
+  .hero {
+    &_technologies {
+      .front_container, .back_container, .other_container {
+        margin-inline: auto;
+        article {
+          width: 20%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .hero {
+    position: relative;
+    min-height: 395px;
+    background-position: calc(50% + 245px) 105px;
+    h1 {
+      width: 100%;
+    }
+    &_avatar {
+      position: absolute;
+      top: 100px;
+      left: calc(50% + 145px);
+      width: 200px;
+      height: 200px;
+    }
+    &_technologies {
+      width: 72%;
+      margin-block-start: 30px;
+      .technologies_front, .technologies_back, .technologies_other {
+        @include flex-wrap-center;
+        margin-block-end: 15px;
+        h4 {
+          width: 100%;
+          margin-block-end: 10px;
+        }
+      }
+      .front_container, .back_container, .other_container {
+        @include flex-wrap-space;
+        min-width: 400px;
+        width: auto;
+        margin: 0;
+        article {
+          width: 14%;
+          padding: 0;
+        }
+      }
+      .back_container {
+        min-width: 290px;
+        article {
+          width: 25%;
+        }
+      }
+      .other_container {
+        min-width: 290px;
+        article {
+          width: 25%;
+        }
+      }
+    }
+    &_social {
+      position: absolute;
+      top: 330px;
+      left: calc(50% + 145px);
+      width: 200px;
+    }
+    &_buttonCV {
+      position: absolute;
+      top: 360px;
+      left: calc(50% + 145px);
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .hero {
+    background-position: calc(50% + 280px) 105px;
+    &_avatar {
+      top: 110px;
+      left: calc(50% + 180px);
+    }
+    &_technologies {
+      width: 70%;
+    }
+    &_social {
+      top: 335px;
+      left: calc(50% + 185px);
+    }
+    &_buttonCV {
+      left: calc(50% + 180px);
+    }
+  }
+
+  @keyframes AnimateBGTech {
+    0% {
+      background-position: 50% 0%, 10% 45%, 90% 55%, 10% 105%;
+      background-size: 200px, 175px, 125px, 100px;
+    }
+    20% {
+      background-position: 90% 0%, 10% 0%, 50% 55%, 50% 105%;
+      background-size: 230px, 125px, 170px, 130px;
+    }
+    40% {
+      background-position: 90% 45%, 50% 22.5%, 10% 55%, 90% 105%;
+      background-size: 170px, 180px, 110px, 160px;
+    }
+    60% {
+      background-position: 50% 22.5%, 90% 45%, 10% 105%, 50% 82.5%;
+      background-size: 110px, 120px, 190px, 210px;
+    }
+    80% {
+      background-position: 10% 0%, 50% 45%, 50% 82.5%, 10% 55%;
+      background-size: 150px, 170px, 140px, 190px;
+    }
+    100% {
+      background-position: 50% 0%, 10% 45%, 90% 55%, 10% 105%;
+      background-size: 200px, 175px, 125px, 100px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    min-height: 400px;
+    background-position: calc(50% + 280px) 80px;
+    background-size: 300px;
+    &_avatar {
+      top: 80px;
+      left: calc(50% + 130px);
+      width: 300px;
+      height: 300px;
+    }
+    &_social {
+      top: 400px;
+      left: calc(50% + 195px);
+    }
+    &_buttonCV {
+      top: 425px;
+      left: calc(50% + 195px);
+    }
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .hero {
+    min-height: 440px;
+    padding-block-start: 40px;
+    background-position: calc(50% + 290px) 120px;
+    background-size: 310px;
+    &_avatar {
+      top: 120px;
+      left: calc(50% + 130px);
+      width: 320px;
+      height: 320px;
+    }
+    &_technologies {
+      width: 67%;
+      margin-block-start: 50px;
+      .technologies_front, .technologies_back, .technologies_other {
+        @include flex-wrap-center;
+        margin-block-end: 20px;
+        h4 {
+          margin-inline-end: 20px;
+        }
+      }
+    }
+    &_social {
+      top: 460px;
+      left: calc(50% + 200px);
+    }
+    &_buttonCV {
+      top: 520px;
+      left: calc(50% + 200px);
+      margin: 0 auto 20px;
+    }
+  }
+
+  // @keyframes AnimateBGTech {
+  //   0% {
+  //     background-position: 50% 100%, 50% 0%, 0% 0%, 100% 100%;
+  //     background-size: 160px, 120px, 80px, 40px;
+  //   }
+  //   20% {
+  //     background-position: 75% 0%, 25% 100%, 25% 20%, 75% 80%;
+  //     background-size: 140px, 130px, 90px, 60px;
+  //   }
+  //   40% {
+  //     background-position: 100% 100%, 0% 0%, 50% 50%, 50% 50%;
+  //     background-size: 120px, 110px, 60px, 80px;
+  //   }
+  //   60% {
+  //     background-position: 0% 100%, 100% 0%, 25% 80%, 75% 20%;
+  //     background-size: 110px, 100px, 50px, 70px;
+  //   }
+  //   80% {
+  //     background-position: 25% 0%, 75% 100%, 0% 100%, 100% 0%;
+  //     background-size: 140px, 130px, 90px, 60px;
+  //   }
+  //   100% {
+  //     background-position: 50% 100%, 50% 0%, 0% 0%, 100% 100%;
+  //     background-size: 160px, 120px, 80px, 40px;
+  //   }
+  // }
+}

@@ -4,7 +4,8 @@ import Main from '../Main/Main';
 import AboutMe from '../AboutMe/AboutMe';
 import Hero from '../Hero/Hero';
 import Education from '../Education/Education';
-import Projects from '../Projects/Projects';
+import PersonalProjects from '../PersonalProjects/PersonalProjects';
+import ProfesionalProjects from '../ProfesionalProjects/ProfesionalProjects';
 import myData from '../data/data.json';
 import Footer from '../Footer/Footer';
 
@@ -33,14 +34,20 @@ function App() {
           ProfileText={data.ProfileText}
         >
         </AboutMe>
-        <Projects
-          ProjectsText={data.ProjectsText}
-          Projects={data.Projects}
+        <ProfesionalProjects
+          ProfesionalProjectsText={data.ProfesionalProjectsText}
+          ProfesionalProjects={data.ProfesionalProjects}
         >
-        </Projects>
+        </ProfesionalProjects>
+        <PersonalProjects
+          ProjectsText={data.ProjectsText}
+          PersonalProjects={data.PersonalProjects}
+        >
+        </PersonalProjects>
         <Education
           EducationText={data.EducationText}
           Henry={data.Henry}
+          Smart={data.Smart}
           Schools={data.Schools}
         >
         </Education>

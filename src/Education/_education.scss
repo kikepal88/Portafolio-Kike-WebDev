@@ -2,7 +2,7 @@
   @include description_section;
   &_henry {
     width: 100%;
-    margin-block-start: 30px;
+    margin-block-end: 30px;
     .henry_img {
       width: 100%;
       .img_logo-henry {
@@ -154,13 +154,17 @@
 
 @media screen and (min-width: 767px) {
   .education {
-    @include flex-wrap-center;
+    @include flex-wrap-space;
     align-items: self-start;
     &_henry {
       width: 48%;
       .henry_img {
         .img_logo-henry {
-          width: 120px;
+          width: 140px;
+        }
+        .img_logo-henry.smart {
+          width: 90px;
+          margin-block-end: 0;
         }
       }
     }
@@ -174,6 +178,7 @@
       }
     }
     &_certificates {
+      width: 48%;
       .certificates_container {
         animation: scrolling 130s linear infinite;
       }
@@ -234,14 +239,31 @@
 
 @media screen and (min-width: 1240px) {
   .education {
+    position: relative;
     &_henry {
-      width: 34%;
+      width: 33%;
     }
     &_platzi {
-      width: 34%;
+      width: 31%;
+      margin: 0 0 10px 10px;
+      .platzi_schools {
+        .school_container {
+          .container_header {
+            border-radius: 10px 10px 0 0;
+            .header_arrow {
+              rotate: -90deg;
+            }
+          }
+        }
+        .container_courses {
+          display: block;
+        }
+      }
     }
     &_certificates {
-      width: 29%;
+      position: absolute;
+      top: 500px;
+      width: 60%;
     }
   }
 }

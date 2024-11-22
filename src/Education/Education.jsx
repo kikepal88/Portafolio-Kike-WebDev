@@ -34,6 +34,26 @@ function Education(props) {
         <h2>Educación</h2>
         <p>{EducationText}</p>
       </div>
+      <div className="education_henry">
+        <div className="henry_img">
+          <article className="img_logo-henry">
+            <img src={Henry?.url_logo} alt="Logo Henry"/>
+          </article>
+          <article className="img_cert-henry">
+            <img src={Henry?.url_certificate} alt="Certificado"/>
+          </article>
+        </div>
+      </div>
+      <div className="education_henry">
+        <div className="henry_img">
+          <article className="img_logo-henry smart">
+            <img src={Smart?.url_logo} alt="Logo Henry"/>
+          </article>
+          <article className="img_cert-henry">
+            <img src={Smart?.url_certificate} alt="Certificado"/>
+          </article>
+        </div>
+      </div>
       <div className="education_platzi">
         <div className="platzi_icon">
           <article className="icon_logo">
@@ -113,26 +133,6 @@ function Education(props) {
                 })
             }
           </div>
-      </div>
-      <div className="education_henry">
-        <div className="henry_img">
-          <article className="img_logo-henry">
-            <img src={Smart?.url_logo} alt="Logo Henry"/>
-          </article>
-          <article className="img_cert-henry">
-            <img src={Smart?.url_certificate} alt="Certificado"/>
-          </article>
-        </div>
-      </div>
-      <div className="education_henry">
-        <div className="henry_img">
-          <article className="img_logo-henry">
-            <img src={Henry?.url_logo} alt="Logo Henry"/>
-          </article>
-          <article className="img_cert-henry">
-            <img src={Henry?.url_certificate} alt="Certificado"/>
-          </article>
-        </div>
       </div>
     </section>
   );
